@@ -1,0 +1,20 @@
+# Site settings
+title: VerbalCant
+email: verbalcant@gmail.com
+description: VerbalCant
+baseurl: "/"
+url: "http://verbalcant.github.io"
+twitter_username: verbalcant
+github_username:  verbalcant
+markdown: kramdown
+theme: minimal
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
