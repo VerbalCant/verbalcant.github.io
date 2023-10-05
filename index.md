@@ -3,14 +3,14 @@ layout: default
 title: Home
 ---
 
+<h2>QC of samples, raw and processed</h2>
 <ul>
-	<li>FastQC <a href="SRR21031366_1_fastqc.html">Raw forward reads, Ancient002 (SRR21031366)</a></li>
-	<li>FastQC <a href="SRR21031366_2_fastqc.html">Raw reverse reads, Ancient002 (SRR21031366)</a></li>
+	<li>FastQC <a href="SRR21031366_1_fastqc.html">Raw forward reads</a>, Ancient002 (SRR21031366)</li>
+	<li>FastQC <a href="SRR21031366_2_fastqc.html">Raw reverse reads</a>, Ancient002 (SRR21031366)</li>
 	<li>FastQC <a href="SRR21031366_R1_dedup_trimmed_paired_fastqc.html">Deduped/clumped/trimmed forward reads</a>, Ancient002 (SRR21031366)</li>
 	<li>FastQC <a href="SRR21031366_R2_dedup_trimmed_paired_fastqc.html">Deduped/clumped/trimmed reverse reads</a>, Ancient002 (SRR21031366)</li>
 </ul>
 
-<h2>QC of samples, raw and processed</h2>
 <ul>
 	<li>FastQC <a href="SRR20755928_1_fastqc.html">Raw forward reads</a>, Ancient003 (SRR20755928)</li>
 	<li>FastQC <a href="SRR20755928_2_fastqc.html">Raw reverse reads</a>, Ancient003 (SRR20755928)</li>
