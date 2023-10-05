@@ -1,4 +1,7 @@
-Hello, World.
+---
+layout: default
+title: Home
+---
 
 <ul>
 	<li><a href="SRR21031366_krona.html">Tax map Ancient002 (SRR21031366)</a></li>
