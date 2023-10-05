@@ -9,6 +9,14 @@ title: Home
 	<li><a href="SRR20458000_krona.html">Tax map Ancient004 (SRR20458000)</a></li>
 </ul>
 
+
+<ul>
+	<li>FastQC Raw forward reads, Ancient002 (SRR21031366)</li>
+	<li>FastQC Raw reverse reads, Ancient002 (SRR21031366)</li>
+	<li>FastQC Deduped/clumped/trimmed forward reads</a>, Ancient002 (SRR21031366)</li>
+	<li>FastQC Deduped/clumped/trimmed reverse reads</a>, Ancient002 (SRR21031366)</li>
+</ul>
+
 <ul>
 	<li>FastQC <a href="SRR20755928_1_fastqc.html">Raw forward reads</a>, Ancient003 (SRR20755928)</li>
 	<li>FastQC <a href="SRR20755928_2_fastqc.html">Raw reverse reads</a>, Ancient003 (SRR20755928)</li>
@@ -18,7 +26,7 @@ title: Home
 
 <ul>
 	<li>FastQC Raw forward reads, Ancient004 (SRR20458000)</li>
-	<li>FastQC Raw reverse reads, Ancient003 (SRR20458000)</li>
+	<li>FastQC Raw reverse reads, Ancient004 (SRR20458000)</li>
 	<li>FastQC <a href="SRR20458000_1_dedup_trimmed_paired_fastqc.html">Deduped/clumped/trimmed forward reads</a>, Ancient004 (SRR20458000)</li>
 	<li>FastQC <a href="SRR20458000_1_dedup_trimmed_paired_fastqc.html">Deduped/clumped/trimmed reverse reads</a>, Ancient004 (SRR20458000)</li>
 </ul>
