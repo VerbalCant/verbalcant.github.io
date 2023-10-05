@@ -8,3 +8,10 @@ title: Home
 	<li><a href="SRR20755928_krona.html">Tax map Ancient003 (SRR20755928)</a></li>
 	<li><a href="SRR20458000_krona.html">Tax map Ancient004 (SRR20458000)</a></li>
 </ul>
+
+<ul>
+	<li>FastQC <a href="SRR20755928_1_fastqc.html">Raw forward reads</a>, Ancient003 (SRR20755928)</li>
+	<li>FastQC <a href="SRR20755928_2_fastqc.html">Raw reverse reads</a>, Ancient003 (SRR20755928)</li>
+	<li>FastQC <a href="SRR20755928_1_dedup_fastqc.html">Deduped/clumped/trimmed forward reads</a>, Ancient003 (SRR20755928)</li>
+	<li>FastQC <a href="SRR20755928_2_dedup_fastqc.html">Deduped/clumped/trimmed reverse reads</a>, Ancient003 (SRR20755928)</li>
+</ul>
