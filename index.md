@@ -17,8 +17,8 @@ title: Home
 </ul>
 
 <ul>
-	<li>FastQC <a href="">Raw forward reads</a>, Ancient004 (SRR20458000)</li>
-	<li>FastQC <a href="">Raw reverse reads</a>, Ancient003 (SRR20458000)</li>
+	<li>FastQC Raw forward reads, Ancient004 (SRR20458000)</li>
+	<li>FastQC Raw reverse reads, Ancient003 (SRR20458000)</li>
 	<li>FastQC <a href="SRR20458000_1_dedup_trimmed_paired_fastqc.html">Deduped/clumped/trimmed forward reads</a>, Ancient004 (SRR20458000)</li>
 	<li>FastQC <a href="SRR20458000_1_dedup_trimmed_paired_fastqc.html">Deduped/clumped/trimmed reverse reads</a>, Ancient004 (SRR20458000)</li>
 </ul>
