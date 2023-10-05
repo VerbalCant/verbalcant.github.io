@@ -10,5 +10,5 @@ So we ([/u/VerbalCant](https://www.reddit.com/user/VerbalCant), [/u/Big_Tree_Fal
 
 Here's [the thread](https://www.reddit.com/r/UFOs/comments/16niqxp/im_analyzing_the_alien_mummy_dna_so_you_dont_have/) where it started.
 
-Here's [the GitHub repo](https://github.com/VerbalCant/peru_mummy_workflow)
+Here's [the GitHub repo](https://github.com/VerbalCant/peru_mummy_pipeline)
 
