@@ -22,7 +22,7 @@ title: Home
 	<li>FastQC <a href="SRR20755928_2_dedup_fastqc.html">Deduped/clumped/trimmed reverse reads</a>, Ancient003 (SRR20755928)</li>
 	<li>QUAST <a href="SRR20755928_megahit_contigs__HTML_report_html.html">Megahit assembly</a>, Ancient003 (SRR20755928)</li>
 	<li>QUAST Spades assembly, Ancient003 (SRR20755928)</li>
-	<li>Busco Megahit assembly, Ancient003 (SRR20755928)</li>
+	<li>Busco <a href="SRR20755928_megahit_contigs__busco_short_summary.txt">Megahit assembly</a>, Ancient003 (SRR20755928)</li>
 	<li>Busco Spades assembly, Ancient003 (SRR20755928)</li>
 </ul>
 
@@ -33,7 +33,7 @@ title: Home
 	<li>FastQC <a href="SRR20458000_1_dedup_trimmed_paired_fastqc.html">Deduped/clumped/trimmed reverse reads</a>, Ancient004 (SRR20458000)</li>
 	<li>QUAST <a href="SRR20458000_megahit_contigs__HTML_report_html.html">Megahit assembly</a>, Ancient004 (SRR20458000)</li>
 	<li>QUAST Spades assembly, Ancient004 (SRR20458000)</li>
-	<li>Busco Megahit assembly, Ancient004 (SRR20458000)</li>
+	<li>Busco <a href="SRR20458000_megahit_contigs__busco_short_summary.txt">Megahit assembly</a>, Ancient004 (SRR20458000)</li>
 	<li>Busco Spades assembly, Ancient004 (SRR20458000)</li>
 </ul>
 
