@@ -14,7 +14,7 @@ title: Home
 	<li>Busco <a href="SRR21031366_megahit_contigs__busco_short_summary.txt">Megahit assembly</a>, Ancient002 (SRR21031366)</li>
 	<li>Busco <a href="SRR21031366_spades__busco_short_summary.txt">Spades assembly</a>, Ancient002 (SRR21031366)</li>
 	<li>checkm on metabat2 binning of <a href="SRR21031366_megahit_metabat2_checkm.txt">Megahit assembly</a>, Ancient002 (SRR21031366)</li>
-	<li>checkm on metabat2 binning of <a href="SRR21031366_spades_metabat2_checkm.txt">Spades assembly</a>, Ancient002 (SRR21031366)</li>li>
+	<li>checkm on metabat2 binning of <a href="SRR21031366_spades_metabat2_checkm.txt">Spades assembly</a>, Ancient002 (SRR21031366)</li>
 </ul>
 
 <ul>
