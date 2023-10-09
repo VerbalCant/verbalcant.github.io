@@ -1,0 +1,36 @@
+# BUSCO version is: 5.4.6 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of genomes: 70, number of BUSCOs: 255)
+# Summarized benchmarking in BUSCO notation for file /ocean/projects/mcb140028p/xcgalaxy/main/staging/52866796/inputs/dataset_4aa955c5-1e98-4d1d-83b6-cb5f6fc8de2a.dat
+# BUSCO was run in mode: euk_genome_aug
+# Gene predictor used: augustus
+
+	***** Results: *****
+
+	C:71.7%[S:43.5%,D:28.2%],F:13.7%,M:14.6%,n:255	   
+	183	Complete BUSCOs (C)			   
+	111	Complete and single-copy BUSCOs (S)	   
+	72	Complete and duplicated BUSCOs (D)	   
+	35	Fragmented BUSCOs (F)			   
+	37	Missing BUSCOs (M)			   
+	255	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	933423	Number of scaffolds
+	933423	Number of contigs
+	588716060	Total length
+	0.000%	Percent gaps
+	621	Scaffold N50
+	621	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	prodigal: 2.6.3
+	busco: 5.4.6
+	makeblastdb: 2.13.0+
+	tblastn: 2.13.0+
+	augustus: 3.5.0
+	gff2gbSmallDNA.pl: None
+	new_species.pl: None
+	etraining: None

@@ -1,0 +1,36 @@
+# BUSCO version is: 5.4.6 
+# The lineage dataset is: mycoplasmatales_odb10 (Creation date: 2020-03-06, number of genomes: 79, number of BUSCOs: 174)
+# Summarized benchmarking in BUSCO notation for file /ocean/projects/mcb140028p/xcgalaxy/main/staging/52866840/inputs/dataset_b1a34c23-cc0a-4a3c-b6ad-420bdd2138ea.dat
+# BUSCO was run in mode: prok_genome
+# Gene predictor used: prodigal
+
+	***** Results: *****
+
+	C:94.8%[S:6.9%,D:87.9%],F:1.7%,M:3.5%,n:174	   
+	165	Complete BUSCOs (C)			   
+	12	Complete and single-copy BUSCOs (S)	   
+	153	Complete and duplicated BUSCOs (D)	   
+	3	Fragmented BUSCOs (F)			   
+	6	Missing BUSCOs (M)			   
+	174	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	130649	Number of scaffolds
+	130649	Number of contigs
+	182019819	Total length
+	0.000%	Percent gaps
+	3 KB	Scaffold N50
+	3 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	prodigal: 2.6.3
+	busco: 5.4.6
+	makeblastdb: 2.13.0+
+	tblastn: 2.13.0+
+	augustus: 3.5.0
+	gff2gbSmallDNA.pl: None
+	new_species.pl: None
+	etraining: None

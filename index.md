@@ -9,6 +9,10 @@ title: Home
 	<li>FastQC <a href="SRR21031366_2_fastqc.html">Raw reverse reads</a>, Ancient002 (SRR21031366)</li>
 	<li>FastQC <a href="SRR21031366_R1_dedup_trimmed_paired_fastqc.html">Deduped/clumped/trimmed forward reads</a>, Ancient002 (SRR21031366)</li>
 	<li>FastQC <a href="SRR21031366_R2_dedup_trimmed_paired_fastqc.html">Deduped/clumped/trimmed reverse reads</a>, Ancient002 (SRR21031366)</li>
+	<li>QUAST <a href="SRR21031366_spades_quast/Quast_on_data_21__HTML_report_html.html">Spades assembly</a>, Ancient002 (SRR21031366)</li>
+	<li>QUAST <a href="SRR21031366_megahit_quast/SRR21031366_megahit_QUAST_HTML_report_html.html">Megahit assembly</a>, Ancient002 (SRR21031366)</li>
+	<li>Busco <a href="SRR21031366_megahit_contigs__busco_short_summary.txt">Megahit assembly</a>, Ancient002 (SRR21031366)</li>
+	<li>Busco <a href="SRR21031366_spades__busco_short_summary.txt">Spades assembly</a>, Ancient002 (SRR21031366)</li>
 </ul>
 
 <ul>
