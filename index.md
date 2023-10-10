@@ -27,7 +27,7 @@ title: Home
 	<li>Bowtie2 <a href="SRR20755928_sorted_flagstat.txt">flag stats</a> for hg38 alignment, Ancient003 (SRR20755928)</li>
 	<li>Bowtie2 <a href="SRR20755928_sorted_idxstats.txt">index stats</a> for hg38 alignment, Ancient003 (SRR20755928)</li>
 	<li>QUAST <a href="SRR20755928_megahit_contigs__HTML_report_html.html">Megahit assembly</a>, Ancient003 (SRR20755928)</li>
-	<li>QUAST Spades assembly, Ancient003 (SRR20755928)</li>
+	<li>QUAST <a href="Quast_on_SRR20755928_spades_contigs__HTML_report_html.html">Spades assembly</a>, Ancient003 (SRR20755928)</li>
 	<li>Busco <a href="SRR20755928_megahit_contigs__busco_short_summary.txt">Megahit assembly</a>, Ancient003 (SRR20755928)</li>
 	<li>Busco Spades assembly, Ancient003 (SRR20755928)</li>
 </ul>
@@ -40,7 +40,7 @@ title: Home
 	<li>Bowtie2 <a href="SRR20458000_sorted_flagstat.txt">flag stats</a> for hg38 alignment, Ancient004 (SRR20458000)</li>
 	<li>Bowtie2 <a href="SRR20458000_sorted_idxstats.txt">index stats</a> for hg38 alignment, Ancient004 (SRR20458000)</li>
 	<li>QUAST <a href="SRR20458000_megahit_contigs__HTML_report_html.html">Megahit assembly</a>, Ancient004 (SRR20458000)</li>
-	<li>QUAST Spades assembly, Ancient004 (SRR20458000)</li>
+	<li>QUAST <a href="SRR20458000_spades_contigs__HTML_report/Quast_on_SRR20458000_spades_contigs__HTML_report_html.html">Spades assembly</a>, Ancient004 (SRR20458000)</li>
 	<li>Busco <a href="SRR20458000_megahit_contigs__busco_short_summary.txt">Megahit assembly</a>, Ancient004 (SRR20458000)</li>
 	<li>Busco Spades assembly, Ancient004 (SRR20458000)</li>
 </ul>
