@@ -30,6 +30,8 @@ title: Home
 	<li>QUAST <a href="Quast_on_SRR20755928_spades_contigs__HTML_report_html.html">Spades assembly</a>, Ancient003 (SRR20755928)</li>
 	<li>Busco <a href="SRR20755928_megahit_contigs__busco_short_summary.txt">Megahit assembly</a>, Ancient003 (SRR20755928)</li>
 	<li>Busco Spades assembly, Ancient003 (SRR20755928)</li>
+	<li>checkm on metabat2 binning of <a href="SRR20758928_megahit_metabat2_checkm.txt">Megahit assembly</a>, Ancient003 (SRR20755928)</li>
+	<li>checkm on metabat2 binning of <a href="SRR20758928_spades_metabat2_checkm.txt">Spades assembly</a>, Ancient003 (SRR20755928)</li>
 </ul>
 
 <ul>
@@ -43,6 +45,8 @@ title: Home
 	<li>QUAST <a href="SRR20458000_spades_contigs__HTML_report/Quast_on_SRR20458000_spades_contigs__HTML_report_html.html">Spades assembly</a>, Ancient004 (SRR20458000)</li>
 	<li>Busco <a href="SRR20458000_megahit_contigs__busco_short_summary.txt">Megahit assembly</a>, Ancient004 (SRR20458000)</li>
 	<li>Busco Spades assembly, Ancient004 (SRR20458000)</li>
+	<li>checkm on metabat2 binning of <a href="SRR20758928_megahit_metabat2_checkm.txt">Megahit assembly</a>, Ancient004 (SRR20458000)</li>
+	<li>checkm on metabat2 binning of <a href="SRR20758928_spades_metabat2_checkm.txt">Spades assembly</a>, Ancient004 (SRR20458000)</li>
 </ul>
 
 <h2>kraken2 (nt) taxonomy</h2>
