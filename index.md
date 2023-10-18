@@ -56,7 +56,7 @@ title: Home
 
 <h2>MEME</h2>
 <ul>
-	<li>MEME on <a href="SRR20755928_spades_meme_out/meme.html">spades assembly<a>, Ancient003 (SRR20755928)</li>
+	<li>MEME on <a href="SRR20755928_spades_meme_out/meme.html">spades assembly</a>, Ancient003 (SRR20755928)</li>
 </ul>
 
 
