@@ -54,9 +54,11 @@ title: Home
 	<li>checkm on metabat2 binning of <a href="SRR20758928_spades_metabat2_checkm.txt">Spades assembly</a>, Ancient004 (SRR20458000)</li>
 </ul>
 
-<h2>MEME</h2>
+<h2>Motifs</h2>
 <ul>
 	<li>MEME on <a href="SRR20755928_spades_meme_out/meme.html">spades assembly</a>, Ancient003 (SRR20755928)</li>
+	<li>MEME on <a href="SRR20755928_megahit_meme_out/meme.html">megahit assembly</a>, Ancient003 (SRR20755928)</li>
+	<li>SEA on <a href="SRR20755928_megahit_sea_out/sea.html">megahit assembly</a>, Ancient003 (SRR20755928)</li>
 </ul>
 
 
