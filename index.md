@@ -32,6 +32,7 @@ title: Home
 	<li>Busco Spades assembly, Ancient003 (SRR20755928)</li>
 	<li>checkm on metabat2 binning of <a href="SRR20758928_megahit_metabat2_checkm.txt">Megahit assembly</a>, Ancient003 (SRR20755928)</li>
 	<li>checkm on metabat2 binning of <a href="SRR20758928_spades_metabat2_checkm.txt">Spades assembly</a>, Ancient003 (SRR20755928)</li>
+	<li>MEME on <a href="SRR20755928_spades_meme_out/meme.html">spades assembly<a>, Ancient003 (SRR20755928)</li>
 </ul>
 
 <ul>
@@ -54,4 +55,21 @@ title: Home
 	<li><a href="SRR21031366_krona.html">Tax map Ancient002 (SRR21031366)</a></li>
 	<li><a href="SRR20755928_krona.html">Tax map Ancient003 (SRR20755928)</a></li>
 	<li><a href="SRR20458000_krona.html">Tax map Ancient004 (SRR20458000)</a></li>
+</ul>
+
+<h2><a href="haplotype_analysis_workflow.sh">Haplotype analysis</a></h2>
+<ul>
+	<li>
+		<img src="SRR20755928_qual_scores.png" /><br>
+		<ul>
+			<li><strong>VCF qual stats on 100 million random samples Ancient003 (SRR20755928)</strong></li>
+			<li>25th percentile: 44.9942</li>
+			<li>50th percentile: 68.9807</li>
+			<li>75th percentile: 110.995</li>
+			<li>90th percentile: 177.996</li>
+			<li>Mean = 89.5416</li>
+			<li>Std Dev = 61.7857</li>
+			<li>Num Rows = 2.82063e+09</li>
+		</ul>
+	</li>
 </ul>
