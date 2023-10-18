@@ -69,7 +69,7 @@ title: Home
 	<li><a href="SRR20458000_krona.html">Tax map Ancient004 (SRR20458000)</a></li>
 </ul>
 
-<h2><a href="haplotype_analysis_workflow.sh">Haplotype analysis</a></h2>
+<h2><a target="_new" href="https://github.com/VerbalCant/peru_mummy_pipeline/blob/main/haplotype_analysis_workflow.sh">Haplotype analysis</a></h2>
 <ul>
 	<li>
 		<img src="SRR20755928_qual_scores.png" /><br>
