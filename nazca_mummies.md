@@ -86,8 +86,30 @@ title: Nazca Mummies Gen 1
 </ul>
 
 <h2>HaploGrep output against MitoImpute database</h2>
-| Sample ID           | Haplogroup | Rank | Quality | Range  | Not Found Polys | Found Polys | Remaining Polys | AAC In Remainings | Input Sample |
-|---------------------|------------|------|---------|--------|-----------------|-------------|-----------------|-------------------|--------------|
-| SRR20755928_sorted  | M          | 1    | 0.8539  | 1-16569| 4769G 10398G    | 73G 263G 489C 750G 1438G 2706G 7028T 8701G 8860G 9540C 10400T 10873C 11719A 12705T 14766T 14783C 15043A 15301A 15326G 16223T | 152C (localPrivateMutation) 225A (localPrivateMutation) 3714G (localPrivateMutation) 12354C (localPrivateMutation) 15691G (localPrivateMutation) 16129A (localPrivateMutation) 16209C (localPrivateMutation) 16272G (localPrivateMutation) 16519C (hotspot) | | 73G 152C 225A 263G 489C 750G 1438G 2706G 3714G 7028T 8701G 8860G 9540C 10400T 10873C 11719A 12354C 12705T 14766T 14783C 15043A 15301A 15326G 15691G 16129A 16209C 16223T 16272G 16519C |
-
+<table>
+  <tr>
+    <th>Sample ID</th>
+    <th>Haplogroup</th>
+    <th>Rank</th>
+    <th>Quality</th>
+    <th>Range</th>
+    <th>Not Found Polys</th>
+    <th>Found Polys</th>
+    <th>Remaining Polys</th>
+    <th>AAC In Remainings</th>
+    <th>Input Sample</th>
+  </tr>
+  <tr>
+    <td>SRR20755928_sorted</td>
+    <td>M</td>
+    <td>1</td>
+    <td>0.8539</td>
+    <td>1-16569</td>
+    <td>4769G 10398G</td>
+    <td>73G 263G 489C 750G 1438G 2706G 7028T 8701G 8860G 9540C 10400T 10873C 11719A 12705T 14766T 14783C 15043A 15301A 15326G 16223T</td>
+    <td>152C (localPrivateMutation) 225A (localPrivateMutation) 3714G (localPrivateMutation) 12354C (localPrivateMutation) 15691G (localPrivateMutation) 16129A (localPrivateMutation) 16209C (localPrivateMutation) 16272G (localPrivateMutation) 16519C (hotspot)</td>
+    <td></td>
+    <td>73G 152C 225A 263G 489C 750G 1438G 2706G 3714G 7028T 8701G 8860G 9540C 10400T 10873C 11719A 12354C 12705T 14766T 14783C 15043A 15301A 15326G 15691G 16129A 16209C 16223T 16272G 16519C</td>
+  </tr>
+</table>
 
