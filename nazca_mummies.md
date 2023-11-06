@@ -3,6 +3,14 @@ layout: default
 title: Nazca Mummies Gen 1
 ---
 
+<h1>Paper:</h1>
+<a href="https://docs.google.com/document/d/144WiAbqtHuk7dKSe4jtmfpH5eLwZGjfOPVV8ER9dBFQ/edit?usp=sharing">Mummy's the Word: A Genomic Look at Peruvian Mummies</a>
+
+<h1>Data and reports</h1>
+
+<h2>Raw data</h2>
+- Coming soon
+
 <h2>QC of samples, raw and processed</h2>
 <ul>
 	<li>FastQC <a href="SRR21031366_1_fastqc.html">Raw forward reads</a>, Ancient002 (SRR21031366)</li>
