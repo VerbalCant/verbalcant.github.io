@@ -8,6 +8,13 @@ title: Nazca Mummies Gen 1
 
 <h1>Data and reports</h1>
 
+<h2>Runs</h2>
+<ul>
+	<li><a href="https://www.ncbi.nlm.nih.gov/sra/PRJNA869134">Ancient002 (SRR21031366, Victoria)</a></li>
+	<li><a href="https://www.ncbi.nlm.nih.gov/sra/PRJNA865375">Ancient003 (SRR20755928, unknown)</a></li>
+	<li><a href="https://www.ncbi.nlm.nih.gov/sra/PRJNA861322">Ancient004 (SRR20458000, Victoria)</a></li>
+</ul>
+
 <h2>Processed data</h2>
 <ul>
 	<li> <a href="https://usegalaxy.org/u/verbal_cant/h/perumummyphase1">Galaxy history: https://usegalaxy.org/u/verbal_cant/h/perumummyphase1</a></li>
@@ -18,7 +25,6 @@ title: Nazca Mummies Gen 1
 		<li>Normalized mtDNA VCF for Ancient0003</li>
 	</ul>
 </ul>
-<p>Current contents: BAM alignments to hg38
 
 <h2>QC of samples, raw and processed</h2>
 <ul>
