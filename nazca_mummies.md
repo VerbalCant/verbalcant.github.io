@@ -8,8 +8,17 @@ title: Nazca Mummies Gen 1
 
 <h1>Data and reports</h1>
 
-<h2>Raw data</h2>
-- Coming soon
+<h2>Processed data</h2>
+<ul>
+	<li> <a href="https://usegalaxy.org/u/verbal_cant/h/perumummyphase1">Galaxy history: https://usegalaxy.org/u/verbal_cant/h/perumummyphase1</a></li>
+	<li>Current contents</li>
+	<ul>
+		<li>BAMs of the bowtie2 alignments to hg38</li>
+		<li>SPAdes and MEGAHIT de novo assembly contigs</li>
+		<li>Normalized mtDNA VCF for Ancient0003</li>
+	</ul>
+</ul>
+<p>Current contents: BAM alignments to hg38
 
 <h2>QC of samples, raw and processed</h2>
 <ul>

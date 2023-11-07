@@ -1,0 +1,45 @@
+bcftools index SRR20755928_filtered_SNPs_only_phased_variants.vcf.gz
+bcftools index -f SRR20755928_filtered_SNPs_only_phased_variants.vcf.gz
+bgzip -r SRR20755928_filtered_SNPs_only_phased_variants.vcf.gz
+samtools index SRR20755928_sorted.bam
+samtools view -H SRR20755928_sorted.bam | grep '^@RG'
+samtools addreplacerg -r 'ID:SRR20755928_sorted' -r 'SM:SRR20755928' -o SRR20755928_sorted_withRG.bam SRR20755928_sorted.bam
+samtools view -H SRR20755928_sorted.bam
+samtools view -H SRR20755928_sorted.bam>old_header.txt
+samtools reheader old_header.txt SRR20755928_sorted.bam > SRR20755928_sorted_withRG.bam
+samtools index SRR20755928_sorted_withRG.bam
+samtools view -H SRR20755928_sorted_withRG.bam
+samtools view -h SRR20755928.bam | awk -v OFS='\t' '{ if ($0 ~ /^@/) { print; } else { $12="RG:Z:Group1"; print; } }' | samtools view -Sb - > SRR20755928_final.bam
+samtools index SRR20755928_final.bam
+samtools sort -@ 12 -o SRR20755928_final_sorted.bam  SRR20755928_final.bam
+samtools index -@ 12 SRR20755928_final_sorted.bam
+samtools index SRR20755928_final_sorted.bam
+bcftools view -r chrM,chrY -o SRR20755928_filtered_SNPs_only_phased_relevant.vcf SRR20755928_filtered_SNPs_only_phased.vcf
+bgzip SRR20755928_filtered_SNPs_only_phased.vcf
+bcftools index -f SRR20755928_filtered_SNPs_only_phased.vcf.gz
+bcftools view -r chrM,chrY -o SRR20755928_filtered_SNPs_only_phased_relevant.vcf SRR20755928_filtered_SNPs_only_phased.vcf.gz
+wget https://github.com/sjfandrews/MitoImpute/blob/master/resources/ReferencePanel_v1_0.001/ReferencePanel_v1_highQual_MAF0.001_filtered.vcf.gz
+bcftools view -r chrM -o SRR20755928_mtDNA.vcf SRR20755928_filtered_SNPs_only_phased_relevant.vcf
+gzip SRR20755928_filtered_SNPs_only_phased.vcf
+gzip SRR20755928_filtered_SNPs_only_phased_relevant.vcf
+bcftools index SRR20755928_filtered_SNPs_only_phased_relevant.vcf.gz
+bcftools index SRR20755928_filtered_SNPs_only_phased_relevant.vcf
+gunzip SRR20755928_filtered_SNPs_only_phased_relevant.vcf.gz
+bcftools index SRR20755928_filtered_SNPs_only_phased_relevant.vcf
+bgzip -c SRR20755928_filtered_SNPs_only_phased_relevant.vcf > SRR20755928_filtered_SNPs_only_phased_relevant.vcf.gz
+bcftools index SRR20755928_filtered_SNPs_only_phased_relevant.vcf.gz
+bcftools view -r chrM -o SRR20755928_mtDNA.vcf SRR20755928_filtered_SNPs_only_phased_relevant.vcf
+bcftools view -r chrM -o SRR20755928_mtDNA.vcf SRR20755928_filtered_SNPs_only_phased_relevant.vcf.gz
+bcftools norm -m-both -o SRR20755928_mtDNA_normalized.vcf SRR20755928_mtDNA.vcf.gz
+bcftools norm -m-both -o SRR20755928_mtDNA_normalized.vcf SRR20755928_mtDNA.vcf
+bcftools isec -n=2 -w1 -Oz -o SRR20755928_mtDNA_filtered.vcf.gz SRR20755928_mtDNA_normalized.vcf ReferencePanel_v1_highQual_MAF0.001_filtered.vcf.gz
+bgzip -c SRR20755928_mtDNA_normalized.vcf > SRR20755928_mtDNA_normalized.vcf.gz
+bcftools isec -n=2 -w1 -Oz -o SRR20755928_mtDNA_filtered.vcf.gz SRR20755928_mtDNA_normalized.vcf ReferencePanel_v1_highQual_MAF0.001_filtered.vcf.gz
+bcftools isec -n=2 -w1 -Oz -o SRR20755928_mtDNA_filtered.vcf.gz SRR20755928_mtDNA_normalized.vcf.gz ReferencePanel_v1_highQual_MAF0.001_filtered.vcf.gz
+bcftools index SRR20755928_mtDNA_normalized.vcf.gz
+bcftools isec -n=2 -w1 -Oz -o SRR20755928_mtDNA_filtered.vcf.gz SRR20755928_mtDNA_normalized.vcf.gz ReferencePanel_v1_highQual_MAF0.001_filtered.vcf.gz
+bcftools index ReferencePanel_v1_highQual_MAF0.001_filtered.vcf.gz
+bcftools isec -n=2 -w1 -Oz -o SRR20755928_mtDNA_filtered.vcf.gz SRR20755928_mtDNA_normalized.vcf.gz ReferencePanel_v1_highQual_MAF0.001_filtered.vcf.gz
+haplogrep classify --input=SRR20755928_mtDNA_normalized.vcf.gz --output=SRR20755928_mt_haplogroups.txt --format=vcf --extend-report
+haplogrep classify --input=SRR20755928_mtDNA_normalized.vcf.gz --output=SRR20755928_mt_haplogroups.fasta --format=vcf --extend-report --write-fasta
+# haplogrep distance --in SRR20755928_mtDNA_normalized.vcf --out SRR20755928_mtDNA_normalized_haplo_distance.txt
