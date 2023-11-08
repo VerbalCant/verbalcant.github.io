@@ -51,6 +51,9 @@ title: Nazca Mummies Gen 1
 	<li>QUAST <a href="Quast_on_SRR20755928_spades_contigs__HTML_report_html.html">Spades assembly</a>, Ancient003 (SRR20755928)</li>
 	<li>Busco <a href="SRR20755928_megahit_contigs__busco_short_summary.txt">Megahit assembly</a>, Ancient003 (SRR20755928)</li>
 	<li>Busco Spades assembly, Ancient003 (SRR20755928)</li>
+	<li>kraken2 classification <a href="SRR20755928_kraken2_megahit_assembly_report.html">Megahit assembly</a>, Ancient003 (SRR20755928)</li>
+	<li>kraken2 classification <a href="SRR20755928_kraken2_spades_assembly_report.html">SPAdes assembly</a>, Ancient003 (SRR20755928)</li>
+	<li>QUAST <a href="Quast_on_SRR20755928_spades_contigs__HTML_report_html.html">Spades assembly</a>, Ancient003 (SRR20755928)</li>
 </ul>
 
 <ul>
