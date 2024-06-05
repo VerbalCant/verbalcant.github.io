@@ -18,20 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Peru Mummy
+title: xBio.ca
 description: >- # this means to ignore newlines until "baseurl:"
-  This is our collaboration for analyzing the Peruvian mummy DNA
-  samples. /u/VerbalCant and /u/Big_Tree_Fall_Hard are collaborating.
+  Biology with the X factor.
 baseurl: ""
-url: "https://verbalcant.github.io"
+url: "https://xbio.ca"
 twitter_username: verbalcant
-github_username:  verbalcant
+github_username: verbalcant
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-  - jekyll-feed
-
+  #  - jekyll-feed
+  - jekyll-remote-theme
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -40,14 +40,14 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
