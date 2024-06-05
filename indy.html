@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indiana Jones Style Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([20, 0], 2);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Define the flight path
+
+var flightPath = [
+    [-14.06777, -75.72861], // Ica, Peru
+    [48.3809, -89.2477],    // Thunder Bay, ON Canada
+    [51.0447, -114.0719],   // Calgary, AB Canada
+    [38.9847, -77.0947]     // Bethesda, MD USA
+];
+
+
+        // Add the flight path to the map
+        var pathLine = L.polyline(flightPath, {color: 'red'}).addTo(map);
+
+        // Function to animate the flight path
+        function animateLine() {
+            var path = d3.select(pathLine._path);
+            var totalLength = path.node().getTotalLength();
+
+            path
+                .attr("stroke-dasharray", totalLength + " " + totalLength)
+                .attr("stroke-dashoffset", totalLength)
+                .transition()
+                .duration(5000)
+                .ease(d3.easeLinear)
+                .attr("stroke-dashoffset", 0);
+        }
+
+        animateLine();
+
+        // Plane icon
+        var planeIcon = L.icon({
+            iconUrl: 'https://www.flaticon.com/free-icons/plane', // Replace with your plane icon path
+            iconSize: [32, 32],
+            iconAnchor: [16, 16]
+        });
+
+        // Add plane marker to the map
+        var planeMarker = L.marker(flightPath[0], {icon: planeIcon}).addTo(map);
+
+        // Function to animate the plane
+        function animatePlane() {
+            var plane = d3.select(planeMarker._icon);
+            var totalLength = pathLine._path.getTotalLength();
+
+            plane.transition()
+                .duration(5000)
+                .attrTween("transform", function() {
+                    return function(t) {
+                        var p = pathLine._path.getPointAtLength(t * totalLength);
+                        return "translate(" + (p.x - 16) + "," + (p.y - 16) + ")";
+                    };
+                });
+        }
+
+        animatePlane();
+    </script>
+</body>
+</html>
