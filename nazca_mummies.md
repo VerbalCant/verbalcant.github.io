@@ -3,9 +3,11 @@ layout: default
 title: Nazca Mummies Gen 1
 ---
 
+<!--
 <h1>Paper:</h1>
 <a href="https://docs.google.com/document/d/144WiAbqtHuk7dKSe4jtmfpH5eLwZGjfOPVV8ER9dBFQ/edit?usp=sharing">Mummy's the Word: A Genomic Look at Peruvian Mummies</a>
 
+-->
 <h1>Data and reports</h1>
 
 <h2>Runs</h2>
@@ -87,7 +89,6 @@ title: Nazca Mummies Gen 1
 	<li>SEA on <a href="SRR20755928_megahit_sea_out/sea.html">megahit assembly</a>, Ancient003 (SRR20755928)</li>
 </ul>
 
-
 <h2>kraken2 (nt) taxonomy</h2>
 <ul>
 	<li><a href="SRR21031366_krona.html">Tax map Ancient002 (SRR21031366)</a></li>
@@ -138,4 +139,3 @@ title: Nazca Mummies Gen 1
     <td>73G 152C 225A 263G 489C 750G 1438G 2706G 3714G 7028T 8701G 8860G 9540C 10400T 10873C 11719A 12354C 12705T 14766T 14783C 15043A 15301A 15326G 15691G 16129A 16209C 16223T 16272G 16519C</td>
   </tr>
 </table>
-
