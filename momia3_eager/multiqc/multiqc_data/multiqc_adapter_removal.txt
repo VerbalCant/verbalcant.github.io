@@ -1,0 +1,2 @@
+Sample	percent_collapsed	discarded_m2	discarded_m1	discarded_total	singleton_m1	full-length_cp	unaligned_total	aligned_total	percent_discarded	unaligned	percent_aligned	paired_reads	truncated_cp	retained	total	reads_total	singleton_m2	aligned
+cleaned_Momia3_R1_no_empty_final.paired_L0	88.14357351063957	542	594	222788	2	427138	48012	454922	0.22587456803477196	24006	90.45361816858673	58438	16166	280146	251467	502934	54	227461

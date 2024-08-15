@@ -1,0 +1,2 @@
+Sample	Unique Reads	Duplicate Reads
+cleaned_Momia3_R1_no_empty_final.paired_L0	272227.0	7919.0

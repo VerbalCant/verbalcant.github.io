@@ -1,0 +1,2 @@
+Sample	Full-length Collapsed Reads	Singleton R2	Discarded R2	Uncollapsed Paired Reads	Truncated Collapsed Reads	Discarded R1	Singleton R1
+cleaned_Momia3_R1_no_empty_final.paired_L0	427138.0	54.0	542.0	58438.0	16166.0	594.0	2.0
