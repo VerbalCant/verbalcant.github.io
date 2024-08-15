@@ -115,6 +115,9 @@ title: Nazca Mummies Gen 1
 <ul>
     <li><a href="srr20755928_mtDNA_variants.vcf">ancient0003 mtDNA variants (rCRS)</a></li>
     <li><a href="srr20755928_mtDNA_consensus.fasta">ancient0003 mtDNA consensus (rCRS)</a></li>
+    <li><a href="srr20755928_mtdna_haplogroups_haplogrep2.txt">ancient0003 haplogrep2 classification</a></li>
+    <li><a href="srr20755928_mtdna_haplogroups_haplogrep3.zip">ancient0003 haplogrep3 classification</a></li>
+    <li><a href="srr20755928_mtDNA_consensus.fasta">ancient0003 mtDNA consensus (rCRS)</a></li>
 </ul>
 <h2>HaploGrep output against MitoImpute database</h2>
 
