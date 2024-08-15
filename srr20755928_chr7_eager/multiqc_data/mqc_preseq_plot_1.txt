@@ -1,0 +1,5 @@
+	0.0
+chr7_PE	0.0
+	0	0.0
+a perfect library where each read is unique	0	0.0
+

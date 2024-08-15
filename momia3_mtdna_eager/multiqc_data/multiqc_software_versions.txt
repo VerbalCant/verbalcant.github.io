@@ -1,0 +1,5 @@
+Sample	FastQC (post-Trimming)	Adapter Removal	DamageProfiler	FastQC (pre-Trimming)
+Adapter Removal		2.3.2		
+DamageProfiler			0.4.9	
+FastQC (post-Trimming)	0.11.9			
+FastQC (pre-Trimming)				0.11.9

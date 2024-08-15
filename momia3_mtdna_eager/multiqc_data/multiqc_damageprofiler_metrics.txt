@@ -1,0 +1,2 @@
+Sample	std	mean_readlength	median
+momia	51.41189875246132	174.625	170.0

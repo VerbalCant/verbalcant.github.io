@@ -1,0 +1,3 @@
+Sample	Encoding	Total Sequences	sequence_length_distribution	basic_statistics	Sequences flagged as poor quality	Sequence length	adapter_content	per_base_n_content	sequence_duplication_levels	%GC	overrepresented_sequences	per_base_sequence_quality	Filename	total_deduplicated_percentage	File type	per_base_sequence_content	per_sequence_gc_content	per_sequence_quality_scores	avg_sequence_length	median_sequence_length
+momia_R1	Illumina 1.3	8.0	warn	pass	0.0	112-151	pass	pass	pass	48.0	fail	pass	momia_R1.fastq	100.0	Conventional base calls	fail	fail	fail	139.875	149
+momia_R2	Sanger / Illumina 1.9	8.0	warn	pass	0.0	112-151	pass	pass	pass	48.0	fail	pass	momia_R2.fastq	100.0	Conventional base calls	fail	fail	pass	139.75	148

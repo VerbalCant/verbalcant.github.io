@@ -1,0 +1,3 @@
+Sample	per_base_sequence_quality	Total Sequences	%GC	basic_statistics	Encoding	avg_sequence_length	sequence_duplication_levels	median_sequence_length	Sequences flagged as poor quality	overrepresented_sequences	total_deduplicated_percentage	File type	per_sequence_gc_content	sequence_length_distribution	Filename	per_sequence_quality_scores	per_base_n_content	adapter_content	Sequence length	per_base_sequence_content
+chr7_R1	pass	1822418.0	40.0	pass	Sanger / Illumina 1.9	150.0	pass	150	0.0	pass	97.21414249717493	Conventional base calls	pass	pass	chr7_R1.fastq	pass	pass	fail	150.0	fail
+chr7_R2	pass	1822418.0	40.0	pass	Sanger / Illumina 1.9	150.0	pass	150	0.0	pass	97.20831599022966	Conventional base calls	pass	pass	chr7_R2.fastq	pass	pass	fail	150.0	warn

@@ -1,0 +1,2 @@
+Sample	Unique Reads	Duplicate Reads
+chr7_R1_L0	1869342.0	45245.0

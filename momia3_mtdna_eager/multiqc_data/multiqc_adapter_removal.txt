@@ -1,0 +1,2 @@
+Sample	discarded_m2	aligned_total	singleton_m2	full-length_cp	truncated_cp	discarded_m1	aligned	unaligned	total	reads_total	discarded_total	percent_discarded	percent_aligned	retained	unaligned_total	paired_reads	percent_collapsed	singleton_m1
+momia_R1_L0	0	16	0	16	0	0	8	0	8	16	8	0.0	100.0	8	0	0	100.0	0

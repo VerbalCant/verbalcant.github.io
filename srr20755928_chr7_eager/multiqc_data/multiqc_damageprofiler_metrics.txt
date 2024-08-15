@@ -1,0 +1,2 @@
+Sample	mean_readlength	std	median
+chr7	140.4	3.977715704047012	141.0

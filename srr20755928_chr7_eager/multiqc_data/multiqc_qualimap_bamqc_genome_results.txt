@@ -1,0 +1,2 @@
+Sample	total_reads	mapped_bases	mean_insert_size	median_insert_size	mean_mapping_quality	general_error_rate	bam_file	mean_coverage	sequenced_bases	mapped_reads
+chr7	1914587.0	702.0	0.0	0.0	1.9671	0.0071	chr7_rmdup.bam	0.0424	702.0	5.0

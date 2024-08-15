@@ -1,0 +1,2 @@
+Sample	Singleton R1	Truncated Collapsed Reads	Uncollapsed Paired Reads	Discarded R2	Singleton R2	Full-length Collapsed Reads	Discarded R1
+chr7_R1_L0	0.0	36276.0	184342.0	2.0	0.0	3424214.0	2.0

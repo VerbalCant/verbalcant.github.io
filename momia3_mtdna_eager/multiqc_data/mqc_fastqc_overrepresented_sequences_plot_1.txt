@@ -1,0 +1,3 @@
+Sample	Sum of remaining over-represented sequences	Top over-represented sequence
+momia_R1	87.5	12.5
+momia_R2	87.5	12.5
