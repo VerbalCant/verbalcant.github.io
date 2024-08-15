@@ -146,3 +146,9 @@ title: Nazca Mummies Gen 1
     <td>73G 152C 225A 263G 489C 750G 1438G 2706G 3714G 7028T 8701G 8860G 9540C 10400T 10873C 11719A 12354C 12705T 14766T 14783C 15043A 15301A 15326G 15691G 16129A 16209C 16223T 16272G 16519C</td>
   </tr>
 </table>
+
+<h2>Y-DNA haplotyping, ancient0003</h2>
+<ul>
+    <li><a href="srr20755928_chrY_calls_norm.haplogroups.txt">ancient0003 Y-DNA yhaplo output</a></li>
+srr20755928_chrY_calls_norm.haplogroups.txt
+</ul>
