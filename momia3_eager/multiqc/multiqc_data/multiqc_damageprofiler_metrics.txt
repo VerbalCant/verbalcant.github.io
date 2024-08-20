@@ -1,2 +1,0 @@
-Sample	mean_readlength	median	std
-cleaned	174.625	170.0	51.41189875246132

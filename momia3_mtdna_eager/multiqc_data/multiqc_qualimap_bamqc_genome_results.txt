@@ -1,2 +1,0 @@
-Sample	total_reads	mapped_bases	mean_coverage	general_error_rate	median_insert_size	bam_file	mapped_reads	mean_mapping_quality	sequenced_bases	mean_insert_size
-momia	8.0	1399.0	0.0844	0.0036	0.0	momia_rmdup.bam	8.0	3.9297	1397.0	0.0

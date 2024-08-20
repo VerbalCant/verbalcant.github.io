@@ -1,2 +1,0 @@
-Sample	Unique Reads	Duplicate Reads
-momia_R1_L0	8.0	0.0

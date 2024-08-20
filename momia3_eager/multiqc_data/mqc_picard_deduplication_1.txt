@@ -1,0 +1,2 @@
+Sample	Duplicate Unpaired	Unmapped	Unique Unpaired
+momia3	702.0	327959.0	7524.0

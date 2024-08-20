@@ -1,2 +1,0 @@
-Sample	1	0
-cleaned	1397.0	15172.0

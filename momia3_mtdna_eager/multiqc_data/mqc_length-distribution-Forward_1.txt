@@ -1,2 +1,0 @@
-Sample	200	178
-momia	1	1

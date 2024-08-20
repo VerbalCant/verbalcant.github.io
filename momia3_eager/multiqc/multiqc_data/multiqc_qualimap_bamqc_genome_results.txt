@@ -1,2 +1,0 @@
-Sample	mean_coverage	bam_file	mean_insert_size	sequenced_bases	total_reads	median_insert_size	general_error_rate	mean_mapping_quality	mapped_reads	mapped_bases
-cleaned	0.0844	cleaned_rmdup.bam	0.0	1397.0	280146.0	0.0	0.0036	3.9297	8.0	1399.0

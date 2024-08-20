@@ -1,0 +1,2 @@
+Sample	C>G	T>C	G>T	G>C	C>A	C>T	T>A	G>A	T>G	A>C	A>G	A>T
+momia3.freebayes	230.0	401.0	288.0	552.0	245.0	461.0	169.0	475.0	219.0	218.0	447.0	178.0

@@ -1,2 +1,0 @@
-Sample	Unique Unpaired	Unmapped
-cleaned	8.0	280138.0

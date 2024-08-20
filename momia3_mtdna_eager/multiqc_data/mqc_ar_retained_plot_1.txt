@@ -1,2 +1,0 @@
-Sample	Uncollapsed Paired Reads	Discarded R1	Full-length Collapsed Reads	Discarded R2	Truncated Collapsed Reads	Singleton R1	Singleton R2
-momia_R1_L0	0.0	0.0	16.0	0.0	0.0	0.0	0.0

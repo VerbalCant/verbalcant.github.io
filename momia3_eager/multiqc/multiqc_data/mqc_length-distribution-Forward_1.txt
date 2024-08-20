@@ -1,2 +1,0 @@
-Sample	178	200
-cleaned	1	1
