@@ -1,2 +1,2 @@
-Sample	SE multimapped	SE not aligned	SE mapped uniquely
-momia3	4703.0	327959.0	3523.0
+Sample	SE mapped uniquely	SE multimapped	SE not aligned
+momia3	3521.0	4701.0	327963.0

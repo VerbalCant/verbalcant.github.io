@@ -1,15 +1,15 @@
 Module	Section	Sample Name	Source
-FastQC (pre-Trimming)	all_sections	Momia3_S2_L001_R1_001	/working/momia3_2024-08-19/work/3b/260267171b645c23b7d4a4ae22cf4c/fastqc_raw/Momia3_S2_L001_R1_001_raw_fastqc.zip
-FastQC (pre-Trimming)	all_sections	Momia3_S2_L001_R2_001	/working/momia3_2024-08-19/work/3b/260267171b645c23b7d4a4ae22cf4c/fastqc_raw/Momia3_S2_L001_R2_001_raw_fastqc.zip
-Adapter Removal	all_sections	Momia3_S2_L001_R1_001	/working/momia3_2024-08-19/work/3b/260267171b645c23b7d4a4ae22cf4c/adapter_removal/Momia3_S2_L001_R1_001.fastq_L1.pe.settings
-FastQC (post-Trimming)	all_sections	Momia3_S2_L001_R1_001	/working/momia3_2024-08-19/work/3b/260267171b645c23b7d4a4ae22cf4c/fastqc/Momia3_S2_L001_R1_001.fastq_L1.pe.combined_fastqc.zip
-Bowtie 2 / HiSAT2	all_sections	momia3	/working/momia3_2024-08-19/work/3b/260267171b645c23b7d4a4ae22cf4c/mapping/bt2/momia3_bt2.log
-Samtools Flagstat (pre-samtools filter)	flagstat	momia3	/working/momia3_2024-08-19/work/3b/260267171b645c23b7d4a4ae22cf4c/flagstat/momia3_flagstat.stats
-Picard	DuplicationMetrics	momia3	/working/momia3_2024-08-19/work/3b/260267171b645c23b7d4a4ae22cf4c/markdup/momia3_rmdup.metrics
-Preseq	all_sections	momia3_PE	/working/momia3_2024-08-19/work/3b/260267171b645c23b7d4a4ae22cf4c/preseq/momia3_PE.mapped.preseq
-DamageProfiler	all_sections	momia3	/working/momia3_2024-08-19/work/3b/260267171b645c23b7d4a4ae22cf4c/damageprofiler/dmgprof8/dmgprof.json
-mtnucratio	all_sections	momia3	/working/momia3_2024-08-19/work/3b/260267171b645c23b7d4a4ae22cf4c/mutnucratio/momia3_rmdup.bam.mtnucratiomtnuc.json
-QualiMap	genome_results	momia3	/working/momia3_2024-08-19/work/3b/260267171b645c23b7d4a4ae22cf4c/qualimap/qualimap8/momia3_rmdup_stats/genome_results.txt
-QualiMap	coverage_histogram	momia3	/working/momia3_2024-08-19/work/3b/260267171b645c23b7d4a4ae22cf4c/qualimap/qualimap8/momia3_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
-QualiMap	mapped_gc_distribution	momia3	/working/momia3_2024-08-19/work/3b/260267171b645c23b7d4a4ae22cf4c/qualimap/qualimap8/momia3_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
-Bcftools	stats	momia3.freebayes	/working/momia3_2024-08-19/work/3b/260267171b645c23b7d4a4ae22cf4c/bcftools_stats8
+FastQC (pre-Trimming)	all_sections	Momia3_S2_L001_R1_001	/working/momia3_2024-08-19/work/30/28cc0b741c4a4a7ae92de7ed313cde/fastqc_raw/Momia3_S2_L001_R1_001_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	Momia3_S2_L001_R2_001	/working/momia3_2024-08-19/work/30/28cc0b741c4a4a7ae92de7ed313cde/fastqc_raw/Momia3_S2_L001_R2_001_raw_fastqc.zip
+Adapter Removal	all_sections	Momia3_S2_L001_R1_001	/working/momia3_2024-08-19/work/30/28cc0b741c4a4a7ae92de7ed313cde/adapter_removal/Momia3_S2_L001_R1_001.fastq_L1.pe.settings
+FastQC (post-Trimming)	all_sections	Momia3_S2_L001_R1_001	/working/momia3_2024-08-19/work/30/28cc0b741c4a4a7ae92de7ed313cde/fastqc/Momia3_S2_L001_R1_001.fastq_L1.pe.combined_fastqc.zip
+Bowtie 2 / HiSAT2	all_sections	momia3	/working/momia3_2024-08-19/work/30/28cc0b741c4a4a7ae92de7ed313cde/mapping/bt2/momia3_bt2.log
+Samtools Flagstat (pre-samtools filter)	flagstat	momia3	/working/momia3_2024-08-19/work/30/28cc0b741c4a4a7ae92de7ed313cde/flagstat/momia3_flagstat.stats
+Picard	DuplicationMetrics	momia3	/working/momia3_2024-08-19/work/30/28cc0b741c4a4a7ae92de7ed313cde/markdup/momia3_rmdup.metrics
+Preseq	all_sections	momia3_PE	/working/momia3_2024-08-19/work/30/28cc0b741c4a4a7ae92de7ed313cde/preseq/momia3_PE.mapped.preseq
+DamageProfiler	all_sections	momia3	/working/momia3_2024-08-19/work/30/28cc0b741c4a4a7ae92de7ed313cde/damageprofiler/dmgprof8/dmgprof.json
+mtnucratio	all_sections	momia3	/working/momia3_2024-08-19/work/30/28cc0b741c4a4a7ae92de7ed313cde/mutnucratio/momia3_rmdup.bam.mtnucratiomtnuc.json
+QualiMap	genome_results	momia3	/working/momia3_2024-08-19/work/30/28cc0b741c4a4a7ae92de7ed313cde/qualimap/qualimap8/momia3_rmdup_stats/genome_results.txt
+QualiMap	coverage_histogram	momia3	/working/momia3_2024-08-19/work/30/28cc0b741c4a4a7ae92de7ed313cde/qualimap/qualimap8/momia3_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	mapped_gc_distribution	momia3	/working/momia3_2024-08-19/work/30/28cc0b741c4a4a7ae92de7ed313cde/qualimap/qualimap8/momia3_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+Bcftools	stats	momia3.freebayes	/working/momia3_2024-08-19/work/30/28cc0b741c4a4a7ae92de7ed313cde/bcftools_stats8

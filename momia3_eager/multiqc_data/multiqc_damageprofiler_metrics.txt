@@ -1,2 +1,2 @@
-Sample	mean_readlength	median	std
-momia3	169.09340866290162	151.0	43.83878807659351
+Sample	median	std	mean_readlength
+momia3	151.0	43.82614159594749	169.06680060271265

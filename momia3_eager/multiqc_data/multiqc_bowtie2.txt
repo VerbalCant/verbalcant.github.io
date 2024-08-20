@@ -1,2 +1,2 @@
-Sample	unpaired_aligned_none	unpaired_total	overall_alignment_rate	unpaired_aligned_multi	unpaired_aligned_one	total_reads
-momia3	327959	336185	2.45	4703	3523	336185
+Sample	overall_alignment_rate	unpaired_aligned_multi	total_reads	unpaired_aligned_none	unpaired_total	unpaired_aligned_one
+momia3	2.45	4701	336185	327963	336185	3521
