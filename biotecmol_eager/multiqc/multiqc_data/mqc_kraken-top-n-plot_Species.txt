@@ -1,0 +1,5 @@
+Sample	Clostridium novyi	Ralstonia sp. RRA.1	Acinetobacter pittii	Other	Unclassified	Cutibacterium acnes	Bradyrhizobium betae
+momia1	2901.0	908.0	17848.0	91868.0	395635.0	444.0	299.0
+momia3	23.0	8089.0	25.0	58628.0	258956.0	2499.0	2232.0
+momia5	10807.0	7892.0	12.0	78232.0	296425.0	4567.0	2182.0
+momia6	1218.0	1851.0	6.0	16102.0	64306.0	923.0	506.0

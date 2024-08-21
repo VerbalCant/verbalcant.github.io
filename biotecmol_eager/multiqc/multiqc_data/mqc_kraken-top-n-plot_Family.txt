@@ -1,0 +1,5 @@
+Sample	Burkholderiaceae	Caulobacteraceae	Other	Unclassified	Comamonadaceae	Moraxellaceae	Clostridiaceae
+momia1	1388.0	1145.0	14840.0	395635.0	1909.0	89490.0	5496.0
+momia3	11509.0	10065.0	34376.0	258956.0	14455.0	1035.0	56.0
+momia5	11468.0	11504.0	52584.0	296425.0	14651.0	1248.0	12237.0
+momia6	2704.0	2396.0	9993.0	64306.0	3365.0	381.0	1767.0

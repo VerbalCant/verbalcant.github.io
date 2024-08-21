@@ -1,0 +1,5 @@
+Sample	Unclassified	Other	Clostridia	Alphaproteobacteria	Actinomycetes	Betaproteobacteria	Gammaproteobacteria
+momia1	395635.0	4746.0	5653.0	3080.0	774.0	4027.0	95988.0
+momia3	258956.0	8292.0	81.0	26597.0	4537.0	27028.0	4961.0
+momia5	296425.0	15078.0	12381.0	29531.0	8729.0	28202.0	9771.0
+momia6	64306.0	2957.0	1851.0	6167.0	1481.0	6401.0	1749.0

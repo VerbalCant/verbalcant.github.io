@@ -1,0 +1,5 @@
+Sample	Metazoa	Other	Orthornavirae	Unclassified	Heunggongvirae	Fungi	Viridiplantae
+momia1	971.0	112594.0	2.0	395635.0	11.0	36.0	654.0
+momia3	630.0	70481.0	9.0	258956.0	15.0	71.0	290.0
+momia5	1239.0	100864.0	6.0	296425.0	48.0	998.0	537.0
+momia6	252.0	19769.0	2.0	64306.0	14.0	414.0	155.0

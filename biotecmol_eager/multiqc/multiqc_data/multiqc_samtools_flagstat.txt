@@ -1,0 +1,5 @@
+Sample	singletons_passed_pct	properly paired_failed	total_passed	secondary_passed	with itself and mate mapped_passed	singletons_failed_pct	duplicates_passed	read1_passed	with mate mapped to a different chr_failed	with mate mapped to a different chr_passed	supplementary_passed	singletons_failed	with itself and mate mapped_failed	singletons_passed	read1_failed	mapped_passed	flagstat_total	mapped_failed	properly paired_passed_pct	read2_passed	mapped_failed_pct	duplicates_failed	with mate mapped to a different chr (mapQ >= 5)_failed	secondary_failed	paired in sequencing_passed	supplementary_failed	mapped_passed_pct	with mate mapped to a different chr (mapQ >= 5)_passed	paired in sequencing_failed	total_failed	read2_failed	properly paired_passed	properly paired_failed_pct
+momia1	nan	0	511731	0	0	nan	0	0	0	0	0	0	0	0	0	1828	511731	0	nan	0	nan	0	0	0	0	0	0.36	0	0	0	0	0	nan
+momia3	nan	0	336185	0	0	nan	0	0	0	0	0	0	0	0	0	5733	336185	0	nan	0	nan	0	0	0	0	0	1.71	0	0	0	0	0	nan
+momia5	nan	0	412831	0	0	nan	0	0	0	0	0	0	0	0	0	12714	412831	0	nan	0	nan	0	0	0	0	0	3.08	0	0	0	0	0	nan
+momia6	nan	0	87871	0	0	nan	0	0	0	0	0	0	0	0	0	2959	87871	0	nan	0	nan	0	0	0	0	0	3.37	0	0	0	0	0	nan

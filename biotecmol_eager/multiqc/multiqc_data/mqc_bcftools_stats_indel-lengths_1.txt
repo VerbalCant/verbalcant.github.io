@@ -1,0 +1,9 @@
+	-1.0	0	1.0	2.0
+momia1.freebayes	13.0	None	11.0	1.0
+	-1.0	0	1.0	3.0
+momia3.freebayes	45.0	None	36.0	1.0
+	-2.0	-1.0	0	1.0
+momia5.freebayes	2.0	115.0	None	84.0
+	-1.0	0	1.0
+momia6.freebayes	32.0	None	22.0
+

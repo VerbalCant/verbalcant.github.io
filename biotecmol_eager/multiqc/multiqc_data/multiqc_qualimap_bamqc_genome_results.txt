@@ -1,0 +1,5 @@
+Sample	mean_coverage	bam_file	total_reads	mean_mapping_quality	mapped_bases	mapped_reads	sequenced_bases	median_insert_size	general_error_rate	mean_insert_size
+momia1	0.0001	momia1_rmdup.bam	1803.0	21.5398	288404.0	1803.0	288387.0	0.0	0.0026	0.0
+momia3	0.0003	momia3_rmdup.bam	5480.0	24.6263	937627.0	5480.0	937577.0	0.0	0.0019	0.0
+momia5	0.0007	momia5_rmdup.bam	12437.0	24.3961	2125301.0	12437.0	2125176.0	0.0	0.0021	0.0
+momia6	0.0002	momia6_rmdup.bam	2920.0	23.755	510367.0	2920.0	510335.0	0.0	0.0018	0.0

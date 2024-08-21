@@ -1,0 +1,5 @@
+Sample	mt_cov_avg	mtreads	mt_nuc_ratio	nucreads	nuc_cov_avg
+momia1	nan	0	0.0	1803	9.303458269862621e-05
+momia3	nan	0	0.0	5480	0.00030246465439021434
+momia5	nan	0	0.0	12437	0.0006855855176672945
+momia6	nan	0	0.0	2920	0.0001646354040302454

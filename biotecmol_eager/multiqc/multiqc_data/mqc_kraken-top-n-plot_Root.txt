@@ -1,0 +1,5 @@
+Sample	root	Unclassified
+momia1	114268.0	395635.0
+momia3	71496.0	258956.0
+momia5	103692.0	296425.0
+momia6	20606.0	64306.0

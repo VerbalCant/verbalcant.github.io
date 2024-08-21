@@ -1,0 +1,5 @@
+Sample	Archaea	Viruses	Other	Eukaryota	Unclassified	Bacteria
+momia1	6.0	17.0	1336.0	1779.0	395635.0	111130.0
+momia3	70.0	27.0	887.0	1017.0	258956.0	69495.0
+momia5	168.0	57.0	1553.0	2860.0	296425.0	99054.0
+momia6	13.0	17.0	377.0	840.0	64306.0	19359.0

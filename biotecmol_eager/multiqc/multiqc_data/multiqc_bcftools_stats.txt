@@ -1,0 +1,5 @@
+Sample	substitution_type_G>T	substitution_type_C>A	tstv_1st_ALT	number_of_records	number_of_others	substitution_type_A>G	substitution_type_C>T	tv	substitution_type_T>G	number_of_multiallelic_SNP_sites	number_of_samples	number_of_MNPs	substitution_type_C>G	substitution_type_A>C	number_of_indels	substitution_type_T>C	number_of_SNPs	ts	substitution_type_G>C	number_of_multiallelic_sites	substitution_type_A>T	substitution_type_T>A	tv_1st_ALT	substitution_type_G>A	number_of_no-ALTs	tstv	ts_1st_ALT
+momia1.freebayes	58.0	53.0	1.03	575.0	0.0	68.0	73.0	258.0	43.0	0.0	1.0	27.0	14.0	28.0	25.0	55.0	523.0	265.0	12.0	0.0	26.0	24.0	258.0	69.0	0.0	1.03	265.0
+momia3.freebayes	133.0	108.0	1.37	1562.0	2.0	199.0	229.0	605.0	71.0	0.0	1.0	42.0	46.0	86.0	82.0	196.0	1436.0	831.0	58.0	0.0	53.0	50.0	605.0	207.0	0.0	1.37	831.0
+momia5.freebayes	329.0	325.0	1.2	3857.0	3.0	485.0	451.0	1585.0	200.0	1.0	1.0	171.0	129.0	217.0	201.0	490.0	3484.0	1898.0	128.0	3.0	145.0	112.0	1584.0	472.0	0.0	1.2	1898.0
+momia6.freebayes	70.0	69.0	1.36	827.0	0.0	94.0	126.0	313.0	30.0	0.0	1.0	34.0	17.0	41.0	54.0	117.0	739.0	426.0	27.0	0.0	34.0	25.0	313.0	89.0	0.0	1.36	426.0

@@ -1,0 +1,5 @@
+Sample	Moraxellales	Eubacteriales	Burkholderiales	Other	Unclassified	Caulobacterales	Hyphomicrobiales
+momia1	89490.0	5516.0	3967.0	12951.0	395635.0	1145.0	1199.0
+momia3	1035.0	72.0	26797.0	22917.0	258956.0	10065.0	10610.0
+momia5	1248.0	12275.0	27817.0	40021.0	296425.0	11504.0	10827.0
+momia6	381.0	1775.0	6337.0	7377.0	64306.0	2396.0	2340.0

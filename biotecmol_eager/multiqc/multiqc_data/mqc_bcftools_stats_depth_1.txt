@@ -1,0 +1,5 @@
+Sample	17	4	14	13	6	2	11	15	9	12	3	1	8	18	16	10	19	7	5
+momia1.freebayes						0.347826					0.869565	98.782609							
+momia3.freebayes						2.560819					0.06402	97.37516							
+momia5.freebayes	0.181488	0.103708	0.362976	0.466684	0.388903	1.16671	0.41483	0.155561	0.33705	0.233342	0.103708	94.451646	0.233342	0.103708	0.155561	0.41483	0.025927	0.466684	0.233342
+momia6.freebayes	None	None	None	None	None	1.088271	None	None	None	None	None	98.911729	None	None	None	None	None	None	None
