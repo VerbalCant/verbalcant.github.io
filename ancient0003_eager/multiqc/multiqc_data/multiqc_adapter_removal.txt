@@ -1,0 +1,2 @@
+Sample	percent_collapsed	full-length_cp	singleton_m1	percent_discarded	percent_aligned	aligned_total	discarded_m2	total	unaligned	singleton_m2	aligned	truncated_cp	paired_reads	unaligned_total	retained	discarded_total	discarded_m1	reads_total
+srr20755928_subsampled_R1	75.78947050699911	192045456	0	4.091370714020922e-05	80.09790696436056	207519160	53	129540938	25781358	0	103759580	4311326	62724988	51562716	160903379	98178497	53	259081876

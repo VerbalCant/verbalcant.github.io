@@ -1,0 +1,2 @@
+Sample	Pseudomonas	Unclassified	Phaseolus	Mastadenovirus	Streptococcus	Other	Homo
+ancient0003	176845.0	2860222.0	739512.0	102794.0	35063.0	311122.0	2375351.0

@@ -1,0 +1,2 @@
+Sample	unpaired_aligned_none	unpaired_aligned_multi	unpaired_aligned_one	total_reads	unpaired_total	overall_alignment_rate
+ancient0003	6600909	97620533	56681937	160903379	160903379	95.9

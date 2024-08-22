@@ -1,0 +1,2 @@
+Sample	Amigovirus molivia	Phaseolus vulgaris	Unclassified	Pseudomonas fluorescens	Homo sapiens	Human mastadenovirus C	Other
+ancient0003	9376.0	739512.0	2860222.0	7609.0	2375351.0	100142.0	508697.0

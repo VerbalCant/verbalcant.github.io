@@ -1,0 +1,2 @@
+Sample	Duplicate Reads	Unique Reads
+srr20755928_subsampled_R1	50053824.0	110849555.0

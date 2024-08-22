@@ -1,0 +1,2 @@
+Sample	Duplicate Unpaired	Unique Unpaired
+ancient0003	64218827.0	90083643.0

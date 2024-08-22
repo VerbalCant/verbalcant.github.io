@@ -1,0 +1,2 @@
+Sample	Hominidae	Unclassified	Fabaceae	Adenoviridae	Pseudomonadaceae	Other	Streptococcaceae
+ancient0003	2375351.0	2860222.0	828649.0	102794.0	178690.0	220110.0	35093.0

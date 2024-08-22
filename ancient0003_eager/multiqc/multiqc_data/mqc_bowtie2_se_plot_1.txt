@@ -1,0 +1,2 @@
+Sample	SE multimapped	SE not aligned	SE mapped uniquely
+ancient0003	97620533.0	6600909.0	56681937.0

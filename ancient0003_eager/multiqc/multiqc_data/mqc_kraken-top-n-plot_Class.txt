@@ -1,0 +1,2 @@
+Sample	Mammalia	Unclassified	Gammaproteobacteria	Bacilli	Tectiliviricetes	Other	Magnoliopsida
+ancient0003	2375351.0	2860222.0	206008.0	42012.0	102794.0	151924.0	862598.0

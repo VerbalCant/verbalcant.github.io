@@ -1,0 +1,2 @@
+Sample	Unclassified	Chordata	Preplasmiviricota	Pseudomonadota	Streptophyta	Bacillota	Other
+ancient0003	2860222.0	2375351.0	102794.0	210955.0	863985.0	44997.0	142605.0

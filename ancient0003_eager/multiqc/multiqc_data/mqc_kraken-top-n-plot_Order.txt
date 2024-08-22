@@ -1,0 +1,2 @@
+Sample	Unclassified	Primates	Pseudomonadales	Rowavirales	Fabales	Lactobacillales	Other
+ancient0003	2860222.0	2375351.0	178705.0	102794.0	828649.0	35716.0	219472.0
