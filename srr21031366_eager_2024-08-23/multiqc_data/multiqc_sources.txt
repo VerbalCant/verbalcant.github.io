@@ -1,0 +1,16 @@
+Module	Section	Sample Name	Source
+FastQC (pre-Trimming)	all_sections	SRR21031366_2_filtered_lt130bp	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/fastqc_raw/SRR21031366_2_filtered_lt130bp_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR21031366_1_filtered_lt130bp	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/fastqc_raw/SRR21031366_1_filtered_lt130bp_raw_fastqc.zip
+Adapter Removal	all_sections	SRR21031366_1_filtered_lt130bp	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/adapter_removal/SRR21031366_1_filtered_lt130bp.fastq_L1.pe.settings
+FastQC (post-Trimming)	all_sections	SRR21031366_1_filtered_lt130bp	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/fastqc/SRR21031366_1_filtered_lt130bp.fastq_L1.pe.combined_fastqc.zip
+Kraken	all_sections	ancient0002	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/kraken/ancient0002.unmapped.fastq.kraken2_report
+Samtools Flagstat (pre-samtools filter)	flagstat	ancient0002	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/flagstat/ancient0002_flagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	ancient0002	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/flagstat_filtered/ancient0002_postfilterflagstat.stats
+Picard	DuplicationMetrics	ancient0002	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/markdup/ancient0002_rmdup.metrics
+Preseq	all_sections	ancient0002	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/preseq/ancient0002.filtered.preseq
+DamageProfiler	all_sections	ancient0002	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/damageprofiler/dmgprof8/dmgprof.json
+mtnucratio	all_sections	ancient0002	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/mutnucratio/ancient0002_rmdup.bam.mtnucratiomtnuc.json
+QualiMap	genome_results	ancient0002	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/qualimap/qualimap8/ancient0002_rmdup_stats/genome_results.txt
+QualiMap	coverage_histogram	ancient0002	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/qualimap/qualimap8/ancient0002_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	mapped_gc_distribution	ancient0002	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/qualimap/qualimap8/ancient0002_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+Bcftools	stats	ancient0002.freebayes	/working/srr21031366_eager_2024-08-23/work/03/8d3be70b63d1fdadaf686357177d02/bcftools_stats8

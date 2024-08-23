@@ -1,0 +1,2 @@
+Sample	total_reads	mean_insert_size	bam_file	median_insert_size	general_error_rate	sequenced_bases	mapped_bases	mean_coverage	mapped_reads	mean_mapping_quality
+ancient0002	106666.0	0.0	ancient0002_rmdup.bam	0.0	0.0284	10655523.0	10708571.0	0.0035	106666.0	12.2207

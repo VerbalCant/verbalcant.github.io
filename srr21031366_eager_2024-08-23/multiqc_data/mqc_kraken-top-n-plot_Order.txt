@@ -1,0 +1,2 @@
+Sample	Primates	Moraxellales	Pseudomonadales	Other	Unclassified	Enterobacterales	Fabales
+ancient0002	4682.0	2992.0	6553.0	4086.0	797333.0	1078.0	89414.0

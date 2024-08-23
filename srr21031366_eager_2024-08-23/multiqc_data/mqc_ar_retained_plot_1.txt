@@ -1,0 +1,2 @@
+Sample	Discarded R2	Singleton R1	Truncated Collapsed Reads	Full-length Collapsed Reads	Discarded R1	Uncollapsed Paired Reads	Singleton R2
+SRR21031366_1_filtered_lt130bp	3164.0	0.0	455496.0	2380068.0	3164.0	76458.0	0.0

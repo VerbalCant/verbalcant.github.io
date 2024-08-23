@@ -1,0 +1,2 @@
+Sample	Enterobacteriaceae	Fabaceae	Hominidae	Other	Unclassified	Pseudomonadaceae	Moraxellaceae
+ancient0002	1064.0	89414.0	4682.0	4100.0	797333.0	6553.0	2992.0

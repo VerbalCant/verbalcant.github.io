@@ -1,0 +1,2 @@
+Sample	Homo	Acinetobacter	Other	Unclassified	Pseudomonas	Phaseolus	Vigna
+ancient0002	4682.0	2964.0	7109.0	797333.0	6509.0	86781.0	760.0

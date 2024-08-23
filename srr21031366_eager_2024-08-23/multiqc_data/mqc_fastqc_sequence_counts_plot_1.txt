@@ -1,0 +1,3 @@
+Sample	Unique Reads	Duplicate Reads
+SRR21031366_1_filtered_lt130bp	834108.0	625067.0
+SRR21031366_2_filtered_lt130bp	874227.0	584948.0

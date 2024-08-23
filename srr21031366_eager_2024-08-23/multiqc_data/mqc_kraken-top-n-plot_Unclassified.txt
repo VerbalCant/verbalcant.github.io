@@ -1,0 +1,2 @@
+Sample	Other	Unclassified
+ancient0002	108805.0	797333.0

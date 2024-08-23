@@ -1,0 +1,2 @@
+Sample	Bacillota	Other	Unclassified	Chordata	Pseudomonadota	Bacteroidota	Streptophyta
+ancient0002	939.0	588.0	797333.0	4682.0	11802.0	161.0	90633.0

@@ -1,0 +1,2 @@
+Sample	Bamfordvirae	Metazoa	Fungi	Other	Heunggongvirae	Unclassified	Viridiplantae
+ancient0002	25.0	4682.0	92.0	13237.0	135.0	797333.0	90634.0

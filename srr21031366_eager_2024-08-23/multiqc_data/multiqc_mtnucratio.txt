@@ -1,0 +1,2 @@
+Sample	mt_cov_avg	nuc_cov_avg	mt_nuc_ratio	nucreads	mtreads
+ancient0002	nan	0.0042054895977479845	0.0	176550	0
