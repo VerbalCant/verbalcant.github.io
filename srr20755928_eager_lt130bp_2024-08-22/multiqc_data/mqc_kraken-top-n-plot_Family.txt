@@ -1,0 +1,2 @@
+Sample	Fabaceae	Streptococcaceae	Thermaceae	Enterobacteriaceae	Other	Unclassified	Hominidae
+ancient0003	2711.0	917.0	888.0	347.0	19090.0	2207610.0	862389.0

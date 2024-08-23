@@ -1,0 +1,2 @@
+Sample	Phaseolus vulgaris	Homo sapiens	Polynucleobacter necessarius	Escherichia coli	Cryptomeria japonica	Other	Unclassified
+ancient0003	2385.0	862389.0	133.0	150.0	220.0	21065.0	2207610.0

@@ -1,0 +1,2 @@
+Sample	Archaea	Eukaryota	Bacteria	Other	Viruses	Unclassified
+ancient0003	3.0	872791.0	2919.0	10612.0	17.0	2207610.0

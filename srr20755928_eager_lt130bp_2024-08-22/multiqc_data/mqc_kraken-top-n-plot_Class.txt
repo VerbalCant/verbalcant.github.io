@@ -1,0 +1,2 @@
+Sample	Magnoliopsida	Bacilli	Deinococci	Mammalia	Other	Gammaproteobacteria	Unclassified
+ancient0003	4932.0	948.0	888.0	862389.0	16515.0	670.0	2207610.0

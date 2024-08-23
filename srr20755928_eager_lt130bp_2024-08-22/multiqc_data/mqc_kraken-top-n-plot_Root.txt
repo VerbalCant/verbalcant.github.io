@@ -1,0 +1,2 @@
+Sample	Unclassified	root
+ancient0003	2207610.0	886342.0

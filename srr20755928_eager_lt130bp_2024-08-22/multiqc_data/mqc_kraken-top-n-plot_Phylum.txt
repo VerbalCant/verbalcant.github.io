@@ -1,0 +1,2 @@
+Sample	Streptophyta	Deinococcota	Chordata	Bacillota	Other	Unclassified	Pseudomonadota
+ancient0003	5181.0	888.0	862389.0	991.0	16047.0	2207610.0	846.0

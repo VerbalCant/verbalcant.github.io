@@ -1,0 +1,2 @@
+Sample	Gossypium	Homo	Streptococcus	Other	Phaseolus	Unclassified	Cryptomeria
+ancient0003	161.0	862389.0	917.0	20270.0	2385.0	2207610.0	220.0

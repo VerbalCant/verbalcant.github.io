@@ -1,0 +1,2 @@
+Sample	Thermales	Fabales	Unclassified	Enterobacterales	Primates	Other	Lactobacillales
+ancient0003	888.0	2711.0	2207610.0	446.0	862389.0	18989.0	919.0
