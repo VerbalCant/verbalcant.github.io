@@ -1,0 +1,2 @@
+Sample	Other	Ascomycota	Streptophyta	Chordata	Bacillota	Unclassified	Pseudomonadota
+ancient0004	5325.0	356.0	665.0	2387.0	3053.0	957228.0	44911.0

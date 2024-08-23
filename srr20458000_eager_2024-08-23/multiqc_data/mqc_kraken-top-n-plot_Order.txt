@@ -1,0 +1,2 @@
+Sample	Other	Lactobacillales	Bacillales	Enterobacterales	Primates	Unclassified	Burkholderiales
+ancient0004	14968.0	1299.0	1632.0	33194.0	2387.0	957228.0	3217.0

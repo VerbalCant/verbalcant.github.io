@@ -1,0 +1,2 @@
+Sample	Gammaproteobacteria	Other	Betaproteobacteria	Magnoliopsida	Mammalia	Unclassified	Bacilli
+ancient0004	41617.0	5868.0	3229.0	664.0	2387.0	957228.0	2932.0

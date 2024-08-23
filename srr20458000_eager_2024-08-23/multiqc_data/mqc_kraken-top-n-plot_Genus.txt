@@ -1,0 +1,2 @@
+Sample	Other	Capsicum	Homo	Streptococcus	Polynucleobacter	Geobacillus	Unclassified
+ancient0004	48248.0	490.0	2387.0	1296.0	3147.0	1129.0	957228.0

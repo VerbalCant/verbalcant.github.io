@@ -1,0 +1,2 @@
+Sample	median	mean_readlength	std
+ancient0004	74.0	77.15499961588745	34.91782365037686

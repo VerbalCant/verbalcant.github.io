@@ -1,0 +1,2 @@
+Sample	Streptococcus sp. Marseille-Q6470	Other	Homo sapiens	Unclassified	Polynucleobacter necessarius	Aspergillus luchuensis	Capsicum annuum
+ancient0004	806.0	49549.0	2387.0	957228.0	3147.0	318.0	490.0

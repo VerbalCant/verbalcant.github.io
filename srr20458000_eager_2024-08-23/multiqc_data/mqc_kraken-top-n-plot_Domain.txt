@@ -1,0 +1,2 @@
+Sample	Unclassified	Other	Eukaryota	Viruses	Bacteria
+ancient0004	957228.0	1476.0	3569.0	13.0	51639.0

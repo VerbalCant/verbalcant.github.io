@@ -1,0 +1,2 @@
+Sample	Other	Burkholderiaceae	Hominidae	Enterobacteriaceae	Bacillaceae	Yersiniaceae	Unclassified
+ancient0004	16569.0	3164.0	2387.0	6478.0	1466.0	26633.0	957228.0

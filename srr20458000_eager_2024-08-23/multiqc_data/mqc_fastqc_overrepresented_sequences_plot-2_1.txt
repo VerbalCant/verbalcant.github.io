@@ -1,0 +1,2 @@
+Sample	Sum of remaining over-represented sequences	Top over-represented sequence
+SRR20458000_1_filtered_lt130bp	0.6354248457195868	0.6496739110345597
