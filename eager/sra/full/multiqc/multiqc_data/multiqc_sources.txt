@@ -1,0 +1,43 @@
+Module	Section	Sample Name	Source
+FastQC (pre-Trimming)	all_sections	SRR20755928_1	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/fastqc_raw/SRR20755928_1_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR20755928_2	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/fastqc_raw/SRR20755928_2_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR21031366_2	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/fastqc_raw/SRR21031366_2_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR20458000_1	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/fastqc_raw/SRR20458000_1_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR21031366_1	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/fastqc_raw/SRR21031366_1_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR20458000_2	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/fastqc_raw/SRR20458000_2_raw_fastqc.zip
+Adapter Removal	all_sections	SRR21031366_1	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/adapter_removal/SRR21031366_1.fastq_L1.pe.settings
+Adapter Removal	all_sections	SRR20458000_1	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/adapter_removal/SRR20458000_1.fastq_L1.pe.settings
+Adapter Removal	all_sections	SRR20755928_1	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/adapter_removal/SRR20755928_1.fastq_L1.pe.settings
+FastQC (post-Trimming)	all_sections	SRR20458000_1	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/fastqc/SRR20458000_1.fastq_L1.pe.combined_fastqc.zip
+FastQC (post-Trimming)	all_sections	SRR21031366_1	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/fastqc/SRR21031366_1.fastq_L1.pe.combined_fastqc.zip
+FastQC (post-Trimming)	all_sections	SRR20755928_1	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/fastqc/SRR20755928_1.fastq_L1.pe.combined_fastqc.zip
+Samtools Flagstat (pre-samtools filter)	flagstat	ancient0004	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/flagstat/ancient0004_flagstat.stats
+Samtools Flagstat (pre-samtools filter)	flagstat	ancient0003	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/flagstat/ancient0003_flagstat.stats
+Samtools Flagstat (pre-samtools filter)	flagstat	ancient0002	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/flagstat/ancient0002_flagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	ancient0004	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/flagstat_filtered/ancient0004_postfilterflagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	ancient0002	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/flagstat_filtered/ancient0002_postfilterflagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	ancient0003	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/flagstat_filtered/ancient0003_postfilterflagstat.stats
+Picard	DuplicationMetrics	ancient0002	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/markdup/ancient0002_rmdup.metrics
+Picard	DuplicationMetrics	ancient0003	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/markdup/ancient0003_rmdup.metrics
+Picard	DuplicationMetrics	ancient0004	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/markdup/ancient0004_rmdup.metrics
+Preseq	all_sections	ancient0002	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/preseq/ancient0002.filtered.preseq
+Preseq	all_sections	ancient0004	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/preseq/ancient0004.filtered.preseq
+Preseq	all_sections	ancient0003	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/preseq/ancient0003.filtered.preseq
+DamageProfiler	all_sections	ancient0004	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/damageprofiler/dmgprof8/dmgprof.json
+DamageProfiler	all_sections	ancient0002	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/damageprofiler/dmgprof24/dmgprof.json
+DamageProfiler	all_sections	ancient0003	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/damageprofiler/dmgprof16/dmgprof.json
+mtnucratio	all_sections	ancient0003	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/mutnucratio/ancient0003_rmdup.bam.mtnucratiomtnuc.json
+mtnucratio	all_sections	ancient0004	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/mutnucratio/ancient0004_rmdup.bam.mtnucratiomtnuc.json
+mtnucratio	all_sections	ancient0002	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/mutnucratio/ancient0002_rmdup.bam.mtnucratiomtnuc.json
+QualiMap	genome_results	ancient0003	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/qualimap/qualimap24/ancient0003_rmdup_stats/genome_results.txt
+QualiMap	genome_results	ancient0004	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/qualimap/qualimap16/ancient0004_rmdup_stats/genome_results.txt
+QualiMap	genome_results	ancient0002	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/qualimap/qualimap8/ancient0002_rmdup_stats/genome_results.txt
+QualiMap	coverage_histogram	ancient0003	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/qualimap/qualimap24/ancient0003_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	ancient0004	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/qualimap/qualimap16/ancient0004_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	ancient0002	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/qualimap/qualimap8/ancient0002_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	mapped_gc_distribution	ancient0003	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/qualimap/qualimap24/ancient0003_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	ancient0004	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/qualimap/qualimap16/ancient0004_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	ancient0002	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/qualimap/qualimap8/ancient0002_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+Bcftools	stats	ancient0003	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/bcftools_stats8
+Bcftools	stats	ancient0004	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/bcftools_stats24
+Bcftools	stats	ancient0002	/project/rcrs_20240902/work/89/9b5a63c4a8bf3870d7260a634ac9fb/bcftools_stats16

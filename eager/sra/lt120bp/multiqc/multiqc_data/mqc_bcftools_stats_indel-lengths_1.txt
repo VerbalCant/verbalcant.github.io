@@ -1,0 +1,4 @@
+Sample	0
+ancient0002_lt120bp	None
+ancient0003_lt120bp	None
+ancient0004_lt120bp	None

@@ -1,0 +1,5 @@
+Sample	Singleton R2	Singleton R1	Truncated Collapsed Reads	Full-length Collapsed Reads	Uncollapsed Paired Reads	Discarded R1	Discarded R2
+Momia1_S1_L001_R1_001	34.0	3.0	7600.0	194684.0	410552.0	34890.0	34859.0
+Momia3_S2_L001_R1_001	33.0	3.0	18710.0	534856.0	59366.0	22568.0	22538.0
+Momia5_S3_L001_R1_001	27.0	5.0	20896.0	491858.0	156422.0	3058.0	3036.0
+Momia6_S4_L001_R1_001	4.0	2.0	4132.0	138858.0	16370.0	10279.0	10277.0

@@ -1,0 +1,5 @@
+Sample	C>T	G>A	T>C	A>G
+m0mia6	0.0	0.0	0.0	0.0
+momia1	0.0	0.0	0.0	0.0
+momia3	0.0	0.0	0.0	0.0
+momia5	10.0	6.0	8.0	9.0

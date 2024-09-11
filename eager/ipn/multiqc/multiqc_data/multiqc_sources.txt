@@ -1,0 +1,57 @@
+Module	Section	Sample Name	Source
+FastQC (pre-Trimming)	all_sections	Momia6_S4_L001_R1_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/fastqc_raw/Momia6_S4_L001_R1_001_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	Momia1_S1_L001_R1_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/fastqc_raw/Momia1_S1_L001_R1_001_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	Momia3_S2_L001_R2_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/fastqc_raw/Momia3_S2_L001_R2_001_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	Momia3_S2_L001_R1_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/fastqc_raw/Momia3_S2_L001_R1_001_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	Momia6_S4_L001_R2_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/fastqc_raw/Momia6_S4_L001_R2_001_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	Momia1_S1_L001_R2_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/fastqc_raw/Momia1_S1_L001_R2_001_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	Momia5_S3_L001_R2_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/fastqc_raw/Momia5_S3_L001_R2_001_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	Momia5_S3_L001_R1_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/fastqc_raw/Momia5_S3_L001_R1_001_raw_fastqc.zip
+Adapter Removal	all_sections	Momia3_S2_L001_R1_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/adapter_removal/Momia3_S2_L001_R1_001.fastq_L1.pe.settings
+Adapter Removal	all_sections	Momia6_S4_L001_R1_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/adapter_removal/Momia6_S4_L001_R1_001.fastq_L1.pe.settings
+Adapter Removal	all_sections	Momia5_S3_L001_R1_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/adapter_removal/Momia5_S3_L001_R1_001.fastq_L1.pe.settings
+Adapter Removal	all_sections	Momia1_S1_L001_R1_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/adapter_removal/Momia1_S1_L001_R1_001.fastq_L1.pe.settings
+FastQC (post-Trimming)	all_sections	Momia1_S1_L001_R1_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/fastqc/Momia1_S1_L001_R1_001.fastq_L1.pe.combined_fastqc.zip
+FastQC (post-Trimming)	all_sections	Momia3_S2_L001_R1_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/fastqc/Momia3_S2_L001_R1_001.fastq_L1.pe.combined_fastqc.zip
+FastQC (post-Trimming)	all_sections	Momia6_S4_L001_R1_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/fastqc/Momia6_S4_L001_R1_001.fastq_L1.pe.combined_fastqc.zip
+FastQC (post-Trimming)	all_sections	Momia5_S3_L001_R1_001	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/fastqc/Momia5_S3_L001_R1_001.fastq_L1.pe.combined_fastqc.zip
+Samtools Flagstat (pre-samtools filter)	flagstat	momia6	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/flagstat/momia6_flagstat.stats
+Samtools Flagstat (pre-samtools filter)	flagstat	momia3	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/flagstat/momia3_flagstat.stats
+Samtools Flagstat (pre-samtools filter)	flagstat	momia5	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/flagstat/momia5_flagstat.stats
+Samtools Flagstat (pre-samtools filter)	flagstat	momia1	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/flagstat/momia1_flagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	momia3	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/flagstat_filtered/momia3_postfilterflagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	momia6	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/flagstat_filtered/momia6_postfilterflagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	momia1	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/flagstat_filtered/momia1_postfilterflagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	momia5	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/flagstat_filtered/momia5_postfilterflagstat.stats
+Picard	DuplicationMetrics	momia6	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/markdup/momia6_rmdup.metrics
+Picard	DuplicationMetrics	momia1	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/markdup/momia1_rmdup.metrics
+Picard	DuplicationMetrics	momia3	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/markdup/momia3_rmdup.metrics
+Picard	DuplicationMetrics	momia5	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/markdup/momia5_rmdup.metrics
+Preseq	all_sections	momia3	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/preseq/momia3.filtered.preseq
+Preseq	all_sections	momia5	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/preseq/momia5.filtered.preseq
+Preseq	all_sections	momia1	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/preseq/momia1.filtered.preseq
+Preseq	all_sections	momia6	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/preseq/momia6.filtered.preseq
+DamageProfiler	all_sections	momia1	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/damageprofiler/dmgprof8/dmgprof.json
+DamageProfiler	all_sections	momia3	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/damageprofiler/dmgprof24/dmgprof.json
+DamageProfiler	all_sections	momia6	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/damageprofiler/dmgprof16/dmgprof.json
+DamageProfiler	all_sections	momia5	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/damageprofiler/dmgprof32/dmgprof.json
+mtnucratio	all_sections	momia3	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/mutnucratio/momia3_rmdup.bam.mtnucratiomtnuc.json
+mtnucratio	all_sections	momia6	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/mutnucratio/momia6_rmdup.bam.mtnucratiomtnuc.json
+mtnucratio	all_sections	momia5	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/mutnucratio/momia5_rmdup.bam.mtnucratiomtnuc.json
+mtnucratio	all_sections	momia1	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/mutnucratio/momia1_rmdup.bam.mtnucratiomtnuc.json
+QualiMap	genome_results	momia5	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/qualimap/qualimap32/momia5_rmdup_stats/genome_results.txt
+QualiMap	genome_results	momia6	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/qualimap/qualimap24/momia6_rmdup_stats/genome_results.txt
+QualiMap	genome_results	momia1	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/qualimap/qualimap16/momia1_rmdup_stats/genome_results.txt
+QualiMap	genome_results	momia3	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/qualimap/qualimap8/momia3_rmdup_stats/genome_results.txt
+QualiMap	coverage_histogram	momia5	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/qualimap/qualimap32/momia5_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	momia6	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/qualimap/qualimap24/momia6_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	momia1	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/qualimap/qualimap16/momia1_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	momia3	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/qualimap/qualimap8/momia3_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	mapped_gc_distribution	momia5	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/qualimap/qualimap32/momia5_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	momia6	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/qualimap/qualimap24/momia6_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	momia1	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/qualimap/qualimap16/momia1_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	momia3	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/qualimap/qualimap8/momia3_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+Bcftools	stats	m0mia6	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/bcftools_stats8
+Bcftools	stats	momia1	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/bcftools_stats24
+Bcftools	stats	momia3	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/bcftools_stats32
+Bcftools	stats	momia5	/project/rcrs_ipn_20240904/work/0f/78bf188f027b4ef6341edf1b27cde2/bcftools_stats16
