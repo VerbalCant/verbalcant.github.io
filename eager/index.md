@@ -4,10 +4,10 @@
 
 ### 1.1 Consensus Sequence
 
--   [m0mia6.fasta.gz](./ipn/consensus_sequence/m0mia6.fasta.gz)
--   [m0mia1.fasta.gz](./ipn/consensus_sequence/momia1.fasta.gz)
--   [m0mia3.fasta.gz](./ipn/consensus_sequence/momia3.fasta.gz)
--   [m0mia5.fasta.gz](./ipn/consensus_sequence/momia5.fasta.gz)
+-   [momia6.fasta.gz](./ipn/consensus_sequence/momia6.fasta.gz)
+-   [momia1.fasta.gz](./ipn/consensus_sequence/momia1.fasta.gz)
+-   [momia3.fasta.gz](./ipn/consensus_sequence/momia3.fasta.gz)
+-   [momia5.fasta.gz](./ipn/consensus_sequence/momia5.fasta.gz)
 
 ### 1.2 MultiQC Report
 
