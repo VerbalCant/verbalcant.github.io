@@ -1,4 +1,4 @@
-# EAGER runs - SRA (ancient0002-0004 HiSeq) and IPN (momia1,3,5,6 MySeq)
+# EAGER runs with rCRS - SRA (ancient0002-0004 HiSeq) and IPN (momia1,3,5,6 MySeq)
 
 ## 1. IPN
 
