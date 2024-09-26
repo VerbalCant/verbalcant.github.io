@@ -25,6 +25,7 @@ baseurl: ""
 url: "https://xbio.ca"
 twitter_username: verbalcant
 github_username: verbalcant
+markdown: GFM
 
 # Build settings
 #theme: minima
