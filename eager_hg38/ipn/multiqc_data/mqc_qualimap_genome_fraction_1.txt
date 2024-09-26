@@ -1,0 +1,5 @@
+Sample	0
+momia1	100.0
+momia3	100.0
+momia5	100.0
+momia6	100.0

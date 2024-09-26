@@ -1,0 +1,5 @@
+Sample	Unique Unpaired	Duplicate Unpaired
+momia1	7014.0	385.0
+momia3	7320.0	767.0
+momia5	15388.0	431.0
+momia6	3542.0	70.0
