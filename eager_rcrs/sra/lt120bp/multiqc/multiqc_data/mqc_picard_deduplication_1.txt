@@ -1,0 +1,4 @@
+Sample	Duplicate Unpaired	Unique Unpaired
+ancient0002	0.0	4.0
+ancient0003	2.0	27.0
+ancient0004	0.0	2.0

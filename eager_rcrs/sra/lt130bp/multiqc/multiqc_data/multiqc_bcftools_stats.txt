@@ -1,0 +1,4 @@
+Sample	number_of_others	number_of_no-ALTs	substitution_type_C>G	number_of_records	substitution_type_G>T	substitution_type_C>A	substitution_type_T>C	tstv	substitution_type_A>T	substitution_type_T>A	number_of_multiallelic_SNP_sites	tstv_1st_ALT	substitution_type_A>C	ts_1st_ALT	substitution_type_G>A	number_of_samples	substitution_type_A>G	tv	tv_1st_ALT	number_of_indels	substitution_type_C>T	number_of_MNPs	number_of_multiallelic_sites	substitution_type_T>G	ts	number_of_SNPs	substitution_type_G>C
+ancient0002_lt130bp	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+ancient0003_lt130bp	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+ancient0004_lt130bp	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
