@@ -1,3 +1,8 @@
+---
+layout: default
+title: hg38 Eager
+---
+
 # IPN Eager run, hg38
 - [Full MultiQC Report: Eager run hg38, IPN MySeq runs (momia1,3,5,6)](eager_hg38/ipn/multiqc_report.html)
 
