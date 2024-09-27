@@ -7,6 +7,11 @@ title: hg38 variant calling
 
 Using the sorted and dedup'ed hg38 bam's produced by the eager run, we called variants and annotated with ClinVar.
 
+## Eager runs
+
+-   [eager runs against hg38](eager_hg38.html)
+-   [eager runs against rCRS](eager_rcrs/index.html)
+
 ## hg38 variant calling results
 
 | Sample Name | Stats                                  | VCF File                                                                                                                | Annotated VCF File                                                                                                                | VCF Summary PDF                                                      |
@@ -53,19 +58,4 @@ tabix -p vcf ${SAMPLE}_hg38.vcf.gz
 #     tabix -p vcf clinvar.vcf.gz
 bcftools annotate -a '/references/clinvar.vcf.gz' -c 'ID,INFO/CLNSIG,INFO/GENEINFO' ${SAMPLE}_hg38.vcf.gz -Oz -o ${SAMPLE}_hg38_annotated.vcf.gz
 
-# call variants and generate stats
-bcftools mpileup -f /references/reference_genomes/hg38.analysisSet.fa  data/ancient0002_rmdup.bam | bcftools call -mv -Oz -o ancient0002_hg38.vcf.gz
-bcftools stats -F /references/reference_genomes/hg38.analysisSet.fa -s - ancient0002_hg38.vcf.gz > ancient0002_hg38.stats
-bcftools index ancient0002_hg38.vcf.gz
-mkdir -p ancient0002_hg38_vcf_plots && plot-vcfstats -p ancient0002_hg38_vcf_plots/ ancient0002.stats
-
-# convert to bgzipped files for bcftools annotate
-gunzip ancient0002_hg38.vcf.gz
-bgzip --threads 16 ancient0002_hg38.vcf
-tabix -p vcf ancient0002_hg38.vcf.gz
-
-# annotate with clinvar
-#     wget https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.vcf.gz
-#     tabix -p vcf clinvar.vcf.gz
-bcftools annotate -a '/references/clinvar.vcf.gz' -c 'ID,INFO/CLNSIG,INFO/GENEINFO' ancient0002_hg38.vcf.gz -Oz  -o ancient0002_hg38_annotated.vcf.gz
 ```
