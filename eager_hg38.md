@@ -5,7 +5,14 @@ title: hg38 Eager
 
 # IPN Eager run, hg38
 - [Full MultiQC Report: Eager run hg38, IPN MySeq runs (momia1,3,5,6)](eager_hg38/ipn/multiqc_report.html)
-
+```
+NXF_VER=22.10.6 nextflow run nf-core/eager -profile docker --input 'momias.tsv'  \
+--fasta /references/reference_genomes/hg38.analysisSet.fa --max_memory 60GB --max_cpus 16  \
+--max_time 288.h -config nextflow_custom.config --save_reference --run_mtnucratio true  \ 
+--run_nuclear_contamination true --mapper bwamem --run_bam_filtering --bam_unmapped_type 'discard'  \
+--bwa_index /references/reference_genomes --fasta_index /references/reference_genomes/hg38.analysisSet.fa.fai  \
+--run_pmdtools --damage_calculation_tool mapdamage -resume
+```
 - Supplementary MultiQC data for hg38 IPN MySeq runs (momia1,3,5,6)
   - [multiqc_adapter_removal](eager_hg38/ipn/multiqc_data/multiqc_adapter_removal.txt)
   - [mqc_ar_length_count_plot_All](eager_hg38/ipn/multiqc_data/mqc_ar_length_count_plot_All.txt)
@@ -61,10 +68,16 @@ title: hg38 Eager
   - [picard_histogram](eager_hg38/ipn/multiqc_data/picard_histogram.txt)
   - [preseq](eager_hg38/ipn/multiqc_data/preseq.txt)
 
-# A234 Eager run, hg38
+# SRA (A234) Eager run, hg38
 - [Full MultiQC Report: Eager run hg38, SRA HiSeq runs (ancient0002-0004)](eager_hg38/a234/multiqc_report.html)
+```
+NXF_VER=22.10.6 nextflow run nf-core/eager -profile docker --input 'momias.tsv'  --fasta /references/reference_genomes/hg38.analysisSet.fa \
+--max_memory 60GB --max_cpus 16 --max_time 288.h -config nextflow_custom.config --save_reference --run_mtnucratio true \
+--run_nuclear_contamination true --mapper bwamem --run_bam_filtering --bam_unmapped_type 'discard'  --bwa_index /references/reference_genomes \
+--fasta_index /references/reference_genomes/hg38.analysisSet.fa.fai  --skip_adapterremoval --run_pmdtools --damage_calculation_tool mapdamage -resume
+```
 
-- Supplementary MultiQC data for hg38 SRA HiSeq runs (ancient0002-0004)
+- MultiQC data for hg38 SRA HiSeq runs (ancient0002-0004)
   - [multiqc_report](eager_hg38/a234/multiqc_report.html)
   - [mqc_fastqc_adapter_content_plot_1](eager_hg38/a234/multiqc_data/mqc_fastqc_adapter_content_plot_1.txt)
   - [mqc_fastqc_per_base_n_content_plot_1](eager_hg38/a234/multiqc_data/mqc_fastqc_per_base_n_content_plot_1.txt)
