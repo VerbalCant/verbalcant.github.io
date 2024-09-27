@@ -9,8 +9,8 @@ Using the sorted and dedup'ed hg38 bam's produced by the eager run, we called va
 
 ## Eager runs
 
--   [eager runs against hg38](eager_hg38.html)
--   [eager runs against rCRS](eager_rcrs/index.html)
+-   [eager runs against hg38](/eager_hg38.html)
+-   [eager runs against rCRS](/eager_rcrs/index.html)
 
 ## hg38 variant calling results
 
