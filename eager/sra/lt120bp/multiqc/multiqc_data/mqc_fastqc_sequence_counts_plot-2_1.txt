@@ -1,4 +1,0 @@
-Sample	Unique Reads	Duplicate Reads
-SRR20458000_1_filtered_lt120bp	1011411.0	505053.0
-SRR20755928_1_filtered_lt120bp	3997170.0	1532642.0
-SRR21031366_1_filtered_lt120bp	883775.0	453092.0

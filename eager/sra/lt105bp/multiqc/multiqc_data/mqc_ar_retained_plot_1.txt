@@ -1,4 +1,0 @@
-Sample	Uncollapsed Paired Reads	Discarded R1	Singleton R2	Full-length Collapsed Reads	Singleton R1	Truncated Collapsed Reads	Discarded R2
-SRR20458000_1_filtered_lt105bp	21492.0	4540.0	0.0	2146960.0	0.0	364142.0	4540.0
-SRR20755928_1_filtered_lt105bp	119870.0	21443.0	0.0	6822404.0	0.0	2003112.0	21443.0
-SRR21031366_1_filtered_lt105bp	22632.0	3164.0	0.0	1835702.0	0.0	345284.0	3164.0

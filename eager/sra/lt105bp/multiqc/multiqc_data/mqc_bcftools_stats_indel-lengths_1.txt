@@ -1,4 +1,0 @@
-Sample	0
-ancient0002_lt105bp	None
-ancient0003_lt105bp	None
-ancient0004_lt105bp	None

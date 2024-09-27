@@ -1,4 +1,0 @@
-Sample	Duplicate Unpaired	Unique Unpaired
-ancient0002	0.0	3.0
-ancient0003	1.0	23.0
-ancient0004	0.0	1.0

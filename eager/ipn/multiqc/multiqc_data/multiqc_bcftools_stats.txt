@@ -1,5 +1,0 @@
-Sample	tv	tv_1st_ALT	substitution_type_C>T	substitution_type_T>G	number_of_no-ALTs	substitution_type_G>T	ts_1st_ALT	number_of_records	number_of_multiallelic_sites	tstv	number_of_samples	substitution_type_G>A	number_of_indels	substitution_type_G>C	substitution_type_T>A	ts	number_of_others	substitution_type_A>C	substitution_type_A>G	number_of_SNPs	number_of_multiallelic_SNP_sites	tstv_1st_ALT	substitution_type_T>C	substitution_type_C>G	substitution_type_C>A	number_of_MNPs	substitution_type_A>T
-m0mia6	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-momia1	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-momia3	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-momia5	0.0	0.0	10.0	0.0	0.0	0.0	33.0	33.0	0.0	0.0	1.0	6.0	0.0	0.0	0.0	33.0	0.0	0.0	9.0	33.0	0.0	0.0	8.0	0.0	0.0	0.0	0.0

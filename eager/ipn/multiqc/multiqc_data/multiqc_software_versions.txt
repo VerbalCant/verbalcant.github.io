@@ -1,7 +1,0 @@
-Sample	DamageProfiler	Adapter Removal	Bcftools	HTSlib	FastQC (post-Trimming)	mtnucratio	FastQC (pre-Trimming)
-Adapter Removal		2.3.2					
-Bcftools			1.12	1.16			
-DamageProfiler	0.4.9						
-FastQC (post-Trimming)					0.11.9		
-FastQC (pre-Trimming)							0.11.9
-mtnucratio						0.7	

@@ -1,4 +1,0 @@
-Sample	0
-ancient0002	None
-ancient0003	None
-ancient0004	None
