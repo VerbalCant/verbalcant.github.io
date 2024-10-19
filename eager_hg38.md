@@ -66,6 +66,10 @@ NXF_VER=22.10.6 nextflow run nf-core/eager -profile docker --input 'momias.tsv' 
   - [picard_histogram_1](eager_hg38/ipn/multiqc_data/picard_histogram_1.txt)
   - [picard_histogram_2](eager_hg38/ipn/multiqc_data/picard_histogram_2.txt)
   - [picard_histogram](eager_hg38/ipn/multiqc_data/picard_histogram.txt)
+  - [pmdtools_momia1](eager_hg38/ipn/multiqc_data/pmdtools_momia1.cpg.range.10.txt)
+  - [pmdtools_momia3](eager_hg38/ipn/multiqc_data/pmdtools_momia3.cpg.range.10.txt)
+  - [pmdtools_momia5](eager_hg38/ipn/multiqc_data/pmdtools_momia5.cpg.range.10.txt)
+  - [pmdtools_momia6](eager_hg38/ipn/multiqc_data/pmdtools_momia6.cpg.range.10.txt)
   - [preseq](eager_hg38/ipn/multiqc_data/preseq.txt)
 
 # SRA (A234) Eager run, hg38
