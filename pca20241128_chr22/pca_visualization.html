@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PCA 3D Visualization</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+        #container {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+        #plot {
+            width: 100%;
+            height: 100%;
+        }
+        #controls {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 5px;
+            max-height: 95vh;
+            overflow-y: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .control-group {
+            margin-bottom: 15px;
+        }
+        .control-group h3 {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .checkbox-list {
+            margin-left: 15px;
+        }
+        .checkbox-list div {
+            margin: 5px 0;
+        }
+    </style>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="plot"></div>
+        <div id="controls">
+            <div class="control-group">
+                <h3>Sample Types</h3>
+                <div id="type-controls" class="checkbox-list">
+                    <div>
+                        <input type="checkbox" id="modern-samples" checked>
+                        <label for="modern-samples">Modern Samples</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ancient-samples" checked>
+                        <label for="ancient-samples">Ancient Samples</label>
+                    </div>
+                </div>
+            </div>
+            <div class="control-group">
+                <h3>Superpopulations</h3>
+                <div id="superpop-controls" class="checkbox-list"></div>
+            </div>
+            <div class="control-group">
+                <h3>Populations</h3>
+                <div id="pop-controls" class="checkbox-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let data = [];
+        let populations = new Set();
+        let superpopulations = new Set();
+        let popToSuperpop = {};
+        let popColors = {};
+
+        // Load and process data
+        fetch('pca_data.json')
+            .then(response => response.json())
+            .then(jsonData => {
+                data = jsonData;
+                
+                // Extract unique populations and superpopulations (excluding ancient)
+                data.filter(d => !d.is_ancient).forEach(d => {
+                    if (d.population) populations.add(d.population);
+                    if (d.superpop) {
+                        superpopulations.add(d.superpop);
+                        popToSuperpop[d.population] = d.superpop;
+                        popColors[d.population] = d.color;
+                    }
+                });
+
+                // Create controls
+                createControls();
+                // Initial plot
+                updatePlot();
+            });
+
+        function createControls() {
+            // Superpopulation controls
+            const superpopDiv = document.getElementById('superpop-controls');
+            superpopulations.forEach(sp => {
+                // Find a sample with this superpop to get the name
+                const superpopName = data.find(d => d.superpop === sp)?.superpop_name || sp;
+                const div = document.createElement('div');
+                div.innerHTML = `
+                    <input type="checkbox" id="sp-${sp}" checked>
+                    <label for="sp-${sp}">${sp} - ${superpopName}</label>
+                `;
+                div.querySelector('input').addEventListener('change', updatePlot);
+                superpopDiv.appendChild(div);
+            });
+
+            // Population controls
+            const popDiv = document.getElementById('pop-controls');
+            populations.forEach(pop => {
+                // Find a sample with this population to get the name
+                const popName = data.find(d => d.population === pop)?.pop_name || pop;
+                const div = document.createElement('div');
+                div.innerHTML = `
+                    <input type="checkbox" id="pop-${pop}" checked>
+                    <label for="pop-${pop}">${pop} - ${popName}</label>
+                `;
+                div.querySelector('input').addEventListener('change', updatePlot);
+                popDiv.appendChild(div);
+            });
+
+            // Add event listeners for sample type controls
+            document.getElementById('modern-samples').addEventListener('change', updatePlot);
+            document.getElementById('ancient-samples').addEventListener('change', updatePlot);
+        }
+
+        function updatePlot() {
+            // Get selected populations and superpopulations
+            const selectedPops = new Set(
+                Array.from(populations)
+                    .filter(pop => document.getElementById(`pop-${pop}`).checked)
+            );
+            const selectedSuperpops = new Set(
+                Array.from(superpopulations)
+                    .filter(sp => document.getElementById(`sp-${sp}`).checked)
+            );
+            const showModern = document.getElementById('modern-samples').checked;
+            const showAncient = document.getElementById('ancient-samples').checked;
+
+            // Filter data
+            const modernData = showModern ? data.filter(d => 
+                !d.is_ancient && 
+                selectedPops.has(d.population) && 
+                selectedSuperpops.has(d.superpop)
+            ) : [];
+
+            const ancientData = showAncient ? data.filter(d => d.is_ancient) : [];
+            const filteredData = [...modernData, ...ancientData];
+
+            // Create traces for modern populations
+            const popTraces = Array.from(populations).map(pop => {
+                const popData = filteredData.filter(d => d.population === pop);
+                if (popData.length === 0) return null;
+                
+                const popName = popData[0].pop_name;
+                
+                return {
+                    name: `${pop} - ${popName}`,
+                    legendgroup: `pop_${popToSuperpop[pop]}`,  // Group by superpopulation
+                    x: popData.map(d => d.PC1),
+                    y: popData.map(d => d.PC2),
+                    z: popData.map(d => d.PC3),
+                    mode: 'markers',
+                    type: 'scatter3d',
+                    marker: {
+                        size: 4,
+                        color: popColors[pop],
+                        opacity: 0.7
+                    },
+                    hovertext: popData.map(d => 
+                        `Sample: ${d.sample}<br>` +
+                        `Population: ${d.population} - ${d.pop_name}<br>` +
+                        `Superpopulation: ${d.superpop} - ${d.superpop_name}`
+                    ),
+                    hoverinfo: 'text',
+                    legendgroup: popToSuperpop[pop],  // Group with superpopulation
+                    legendgrouptitle: {
+                        text: `${popToSuperpop[pop]} - ${popData[0].superpop_name}`
+                    }
+                };
+            }).filter(trace => trace !== null);
+
+            // Create superpopulation legend traces
+            const superpopTraces = Array.from(superpopulations).map(sp => {
+                const superpopName = data.find(d => d.superpop === sp)?.superpop_name || sp;
+                const color = data.find(d => d.superpop === sp)?.color || '#000000';
+                
+                return {
+                    name: `${sp} - ${superpopName}`,
+                    x: [null],  // No actual data points
+                    y: [null],
+                    z: [null],
+                    mode: 'markers',
+                    type: 'scatter3d',
+                    marker: {
+                        size: 8,
+                        color: color,
+                        opacity: 0.7
+                    },
+                    showlegend: true,
+                    legendgroup: sp,
+                    legendgrouptitle: {
+                        text: `${sp} - ${superpopName}`
+                    }
+                };
+            });
+
+            // Add ancient samples trace if selected
+            let traces = [...superpopTraces, ...popTraces];  // Superpop traces first
+            if (showAncient) {
+                const ancientTrace = {
+                    name: 'Ancient Samples',
+                    x: ancientData.map(d => d.PC1),
+                    y: ancientData.map(d => d.PC2),
+                    z: ancientData.map(d => d.PC3),
+                    mode: 'markers',
+                    type: 'scatter3d',
+                    marker: {
+                        size: 8,
+                        color: '#000000',
+                        symbol: 'diamond',
+                        opacity: 1,
+                        line: {
+                            color: '#FFFFFF',
+                            width: 2
+                        }
+                    },
+                    hovertext: ancientData.map(d => 
+                        `Sample: ${d.sample}<br>` +
+                        `Population: ${d.population || 'Unknown'}<br>` +
+                        `Ancient Sample`
+                    ),
+                    hoverinfo: 'text',
+                    legendgroup: 'ancient',
+                    legendgrouptitle: {
+                        text: 'Ancient Samples'
+                    }
+                };
+                traces.push(ancientTrace);
+            }
+
+            const layout = {
+                scene: {
+                    xaxis: { title: 'PC1' },
+                    yaxis: { title: 'PC2' },
+                    zaxis: { title: 'PC3' }
+                },
+                margin: { l: 0, r: 0, b: 0, t: 0 },
+                showlegend: true,
+                legend: {
+                    x: 0,
+                    y: 1,
+                    traceorder: 'grouped',  // Group traces by legendgroup
+                    itemsizing: 'constant'  // Make legend symbols the same size
+                }
+            };
+
+            Plotly.newPlot('plot', traces, layout);
+        }
+    </script>
+</body>
+</html> 
