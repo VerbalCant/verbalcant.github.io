@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PCA 3D Visualization</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+        #container {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+        #plot {
+            width: 100%;
+            height: 100%;
+        }
+        #controls {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 5px;
+            max-height: 95vh;
+            overflow-y: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .control-group {
+            margin-bottom: 15px;
+        }
+        .control-group h3 {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .checkbox-list {
+            margin-left: 15px;
+        }
+        .checkbox-list div {
+            margin: 5px 0;
+        }
+    </style>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="plot"></div>
+        <div id="controls">
+            <div class="control-group">
+                <h3>Sample Types</h3>
+                <div id="type-controls" class="checkbox-list">
+                    <div>
+                        <input type="checkbox" id="modern-samples" checked>
+                        <label for="modern-samples">Modern Samples</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ancient-samples" checked>
+                        <label for="ancient-samples">Ancient Samples</label>
+                    </div>
+                </div>
+            </div>
+            <div class="control-group">
+                <h3>Superpopulations</h3>
+                <div id="superpop-controls" class="checkbox-list"></div>
+            </div>
+            <div class="control-group">
+                <h3>Populations</h3>
+                <div id="pop-controls" class="checkbox-list"></div>
+            </div>
+            <div class="control-group">
+                <h3>Color By</h3>
+                <div id="color-controls" class="checkbox-list">
+                    <div>
+                        <input type="radio" id="color-by-pop" name="color-by" value="population" checked>
+                        <label for="color-by-pop">Population</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="color-by-superpop" name="color-by" value="superpopulation">
+                        <label for="color-by-superpop">Superpopulation</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Superpopulation base colors
+        const POPULATION_COLORS = {
+            'AFR': '#FF0000', // Red base for African populations
+            'EUR': '#0000FF', // Blue base for European populations
+            'EAS': '#00FF00', // Green base for East Asian populations
+            'SAS': '#FF00FF', // Magenta base for South Asian populations
+            'AMR': '#FFA500', // Orange base for American populations
+            'ANC': '#000000'  // Black for ancient
+        };
+
+        // Generate colors for populations within each superpopulation
+        function generateColorPalette() {
+            const colors = {
+                // African populations - red-orange spectrum
+                'YRI': '#FF0000', // Pure red
+                'MSL': '#FF3300', // Red-orange
+                'GWD': '#FF6600', // Orange-red
+                'ESN': '#FF9900', // Dark orange
+                'ACB': '#CC0000', // Dark red
+                'ASW': '#FF1a1a', // Light red
+
+                // European populations - blue spectrum
+                'CEU': '#0000FF', // Pure blue
+                'TSI': '#0066FF', // Sky blue
+                'FIN': '#0099FF', // Light blue
+                'GBR': '#000099', // Dark blue
+                'IBS': '#3333FF', // Medium blue
+
+                // East Asian populations - green spectrum
+                'CHB': '#00FF00', // Pure green
+                'JPT': '#00CC00', // Dark green
+                'CHS': '#33FF33', // Light green
+                'CDX': '#006600', // Very dark green
+                'KHV': '#66FF66', // Pale green
+
+                // South Asian populations - purple-magenta spectrum
+                'GIH': '#FF00FF', // Magenta
+                'PJL': '#CC00CC', // Dark magenta
+                'BEB': '#FF33FF', // Light magenta
+                'STU': '#990099', // Dark purple
+                'ITU': '#FF99FF', // Light pink
+
+                // American populations - orange-yellow spectrum
+                'MXL': '#FFA500', // Orange
+                'PUR': '#FFD700', // Gold
+                'CLM': '#FF8C00', // Dark orange
+                'PEL': '#DAA520', // Goldenrod
+                'PEL': '#FFB833'  // Light orange
+            };
+            return colors;
+        }
+
+        let data = [];
+        let populations = new Set();
+        let superpopulations = new Set();
+        let popToSuperpop = {};
+        let popColors = generateColorPalette();
+        let superpopColors = POPULATION_COLORS;
+
+        fetch('pca_data.json')
+            .then(response => response.json())
+            .then(jsonData => {
+                data = jsonData;
+                
+                data.filter(d => !d.is_ancient).forEach(d => {
+                    if (d.population) populations.add(d.population);
+                    if (d.superpop) {
+                        superpopulations.add(d.superpop);
+                        popToSuperpop[d.population] = d.superpop;
+                    }
+                });
+
+                const popArray = Array.from(populations);
+                const popColorPalette = generateColorPalette(popArray.length);
+                popArray.forEach((pop, i) => {
+                    popColors[pop] = popColorPalette[i];
+                });
+
+                superpopulations.forEach(sp => {
+                    superpopColors[sp] = POPULATION_COLORS[sp] || '#808080';
+                });
+
+                createControls();
+                updatePlot();
+            });
+
+        function createControls() {
+            // Create a map of superpopulations to their populations
+            const superpopToPops = {};
+            Array.from(populations).forEach(pop => {
+                const sp = popToSuperpop[pop];
+                if (!superpopToPops[sp]) superpopToPops[sp] = [];
+                superpopToPops[sp].push(pop);
+            });
+
+            const superpopDiv = document.getElementById('superpop-controls');
+            superpopulations.forEach(sp => {
+                const superpopName = data.find(d => d.superpop === sp)?.superpop_name || sp;
+                const div = document.createElement('div');
+                div.innerHTML = `
+                    <input type="checkbox" id="sp-${sp}" checked>
+                    <label for="sp-${sp}">${sp} - ${superpopName}</label>
+                `;
+                const checkbox = div.querySelector('input');
+                checkbox.addEventListener('change', (e) => {
+                    // When superpopulation checkbox changes, update all its populations
+                    const isChecked = e.target.checked;
+                    superpopToPops[sp].forEach(pop => {
+                        const popCheckbox = document.getElementById(`pop-${pop}`);
+                        if (popCheckbox) {
+                            popCheckbox.checked = isChecked;
+                        }
+                    });
+                    updatePlot();
+                });
+                superpopDiv.appendChild(div);
+            });
+
+            const popDiv = document.getElementById('pop-controls');
+            populations.forEach(pop => {
+                const popName = data.find(d => d.population === pop)?.pop_name || pop;
+                const div = document.createElement('div');
+                div.innerHTML = `
+                    <input type="checkbox" id="pop-${pop}" checked>
+                    <label for="pop-${pop}">${pop} - ${popName}</label>
+                `;
+                const checkbox = div.querySelector('input');
+                checkbox.addEventListener('change', (e) => {
+                    // When a population checkbox changes, check if we need to update superpopulation
+                    const sp = popToSuperpop[pop];
+                    const superpopCheckbox = document.getElementById(`sp-${sp}`);
+                    if (superpopCheckbox) {
+                        // If any population in the superpopulation is checked, keep superpopulation checked
+                        const anyChecked = superpopToPops[sp].some(p => 
+                            document.getElementById(`pop-${p}`).checked
+                        );
+                        superpopCheckbox.checked = anyChecked;
+                    }
+                    updatePlot();
+                });
+                popDiv.appendChild(div);
+            });
+
+            document.getElementById('modern-samples').addEventListener('change', updatePlot);
+            document.getElementById('ancient-samples').addEventListener('change', updatePlot);
+        }
+
+        function updatePlot() {
+            const selectedPops = new Set(
+                Array.from(populations)
+                    .filter(pop => document.getElementById(`pop-${pop}`).checked)
+            );
+            const selectedSuperpops = new Set(
+                Array.from(superpopulations)
+                    .filter(sp => document.getElementById(`sp-${sp}`).checked)
+            );
+            const showModern = document.getElementById('modern-samples').checked;
+            const showAncient = document.getElementById('ancient-samples').checked;
+            const colorBy = document.querySelector('input[name="color-by"]:checked').value;
+
+            const modernData = showModern ? data.filter(d => 
+                !d.is_ancient && 
+                selectedPops.has(d.population) && 
+                selectedSuperpops.has(d.superpop)
+            ) : [];
+
+            const ancientData = showAncient ? data.filter(d => d.is_ancient) : [];
+            const filteredData = [...modernData, ...ancientData];
+
+            let traces = [];
+
+            if (colorBy === 'population') {
+                const popTraces = Array.from(populations).map(pop => {
+                    const popData = filteredData.filter(d => d.population === pop);
+                    if (popData.length === 0) return null;
+                    
+                    const popName = popData[0].pop_name;
+                    
+                    return {
+                        name: `${pop} - ${popName}`,
+                        x: popData.map(d => d.PC1),
+                        y: popData.map(d => d.PC2),
+                        z: popData.map(d => d.PC3),
+                        mode: 'markers',
+                        type: 'scatter3d',
+                        marker: {
+                            size: 4,
+                            color: popColors[pop],
+                            opacity: 0.7
+                        },
+                        hovertext: popData.map(d => 
+                            `Sample: ${d.sample}<br>` +
+                            `Population: ${d.population} - ${d.pop_name}<br>` +
+                            `Superpopulation: ${d.superpop} - ${d.superpop_name}`
+                        ),
+                        hoverinfo: 'text'
+                    };
+                }).filter(trace => trace !== null);
+                traces.push(...popTraces);
+            } else {
+                const superpopTraces = Array.from(superpopulations).map(sp => {
+                    const superpopData = filteredData.filter(d => d.superpop === sp);
+                    if (superpopData.length === 0) return null;
+
+                    const superpopName = superpopData[0].superpop_name;
+                    
+                    return {
+                        name: `${sp} - ${superpopName}`,
+                        x: superpopData.map(d => d.PC1),
+                        y: superpopData.map(d => d.PC2),
+                        z: superpopData.map(d => d.PC3),
+                        mode: 'markers',
+                        type: 'scatter3d',
+                        marker: {
+                            size: 4,
+                            color: superpopColors[sp],
+                            opacity: 0.7
+                        },
+                        hovertext: superpopData.map(d => 
+                            `Sample: ${d.sample}<br>` +
+                            `Population: ${d.population} - ${d.pop_name}<br>` +
+                            `Superpopulation: ${d.superpop} - ${d.superpop_name}`
+                        ),
+                        hoverinfo: 'text'
+                    };
+                }).filter(trace => trace !== null);
+                traces.push(...superpopTraces);
+            }
+
+            if (showAncient) {
+                const ancientTrace = {
+                    name: 'Ancient Samples',
+                    x: ancientData.map(d => d.PC1),
+                    y: ancientData.map(d => d.PC2),
+                    z: ancientData.map(d => d.PC3),
+                    mode: 'markers',
+                    type: 'scatter3d',
+                    marker: {
+                        size: 8,
+                        color: '#000000',
+                        symbol: 'diamond',
+                        opacity: 1,
+                        line: {
+                            color: '#FFFFFF',
+                            width: 2
+                        }
+                    },
+                    hovertext: ancientData.map(d => 
+                        `Sample: ${d.sample}<br>` +
+                        `Population: ${d.population || 'Unknown'}<br>` +
+                        `Ancient Sample`
+                    ),
+                    hoverinfo: 'text'
+                };
+                traces.push(ancientTrace);
+            }
+
+            const layout = {
+                scene: {
+                    xaxis: { title: 'PC1' },
+                    yaxis: { title: 'PC2' },
+                    zaxis: { title: 'PC3' }
+                },
+                margin: { l: 0, r: 0, b: 0, t: 0 },
+                showlegend: true,
+                legend: {
+                    x: 0,
+                    y: 1,
+                    itemsizing: 'constant'
+                }
+            };
+
+            Plotly.newPlot('plot', traces, layout);
+        }
+
+        document.querySelectorAll('input[name="color-by"]').forEach(radio => {
+            radio.addEventListener('change', updatePlot);
+        });
+    </script>
+</body>
+</html> 
