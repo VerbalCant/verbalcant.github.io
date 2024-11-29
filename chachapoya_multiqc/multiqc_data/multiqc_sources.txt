@@ -1,0 +1,88 @@
+Module	Section	Sample Name	Source
+FastQC (pre-Trimming)	all_sections	SRR1314600_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc_raw/SRR1314600_1_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR1314601_2	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc_raw/SRR1314601_2_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR1314214_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc_raw/SRR1314214_1_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR1314599_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc_raw/SRR1314599_1_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR1314212_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc_raw/SRR1314212_1_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR1314212_2	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc_raw/SRR1314212_2_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR1313909_2	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc_raw/SRR1313909_2_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR1314599_2	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc_raw/SRR1314599_2_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR1314213_2	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc_raw/SRR1314213_2_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR1314213_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc_raw/SRR1314213_1_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR1314601_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc_raw/SRR1314601_1_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR1314214_2	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc_raw/SRR1314214_2_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR1314600_2	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc_raw/SRR1314600_2_raw_fastqc.zip
+FastQC (pre-Trimming)	all_sections	SRR1313909_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc_raw/SRR1313909_1_raw_fastqc.zip
+Adapter Removal	all_sections	SRR1314601_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/adapter_removal/SRR1314601_1.fastq_L9.pe.settings
+Adapter Removal	all_sections	SRR1314600_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/adapter_removal/SRR1314600_1.fastq_L8.pe.settings
+Adapter Removal	all_sections	SRR1314599_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/adapter_removal/SRR1314599_1.fastq_L7.pe.settings
+Adapter Removal	all_sections	SRR1313909_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/adapter_removal/SRR1313909_1.fastq_L3.pe.settings
+Adapter Removal	all_sections	SRR1314213_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/adapter_removal/SRR1314213_1.fastq_L5.pe.settings
+Adapter Removal	all_sections	SRR1314212_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/adapter_removal/SRR1314212_1.fastq_L4.pe.settings
+Adapter Removal	all_sections	SRR1314214_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/adapter_removal/SRR1314214_1.fastq_L6.pe.settings
+FastQC (post-Trimming)	all_sections	SRR1314213_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc/SRR1314213_1.fastq_L5.pe.combined_fastqc.zip
+FastQC (post-Trimming)	all_sections	SRR1314601_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc/SRR1314601_1.fastq_L9.pe.combined_fastqc.zip
+FastQC (post-Trimming)	all_sections	SRR1314600_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc/SRR1314600_1.fastq_L8.pe.combined_fastqc.zip
+FastQC (post-Trimming)	all_sections	SRR1314214_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc/SRR1314214_1.fastq_L6.pe.combined_fastqc.zip
+FastQC (post-Trimming)	all_sections	SRR1313909_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc/SRR1313909_1.fastq_L3.pe.combined_fastqc.zip
+FastQC (post-Trimming)	all_sections	SRR1314599_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc/SRR1314599_1.fastq_L7.pe.combined_fastqc.zip
+FastQC (post-Trimming)	all_sections	SRR1314212_1	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/fastqc/SRR1314212_1.fastq_L4.pe.combined_fastqc.zip
+Samtools Flagstat (pre-samtools filter)	flagstat	SRR1314599	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/flagstat/SRR1314599_flagstat.stats
+Samtools Flagstat (pre-samtools filter)	flagstat	SRR1314212	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/flagstat/SRR1314212_flagstat.stats
+Samtools Flagstat (pre-samtools filter)	flagstat	SRR1314601	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/flagstat/SRR1314601_flagstat.stats
+Samtools Flagstat (pre-samtools filter)	flagstat	SRR1314213	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/flagstat/SRR1314213_flagstat.stats
+Samtools Flagstat (pre-samtools filter)	flagstat	SRR1314600	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/flagstat/SRR1314600_flagstat.stats
+Samtools Flagstat (pre-samtools filter)	flagstat	SRR1313909	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/flagstat/SRR1313909_flagstat.stats
+Samtools Flagstat (pre-samtools filter)	flagstat	SRR1314214	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/flagstat/SRR1314214_flagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	SRR1314599	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/flagstat_filtered/SRR1314599_postfilterflagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	SRR1313909	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/flagstat_filtered/SRR1313909_postfilterflagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	SRR1314600	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/flagstat_filtered/SRR1314600_postfilterflagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	SRR1314214	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/flagstat_filtered/SRR1314214_postfilterflagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	SRR1314601	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/flagstat_filtered/SRR1314601_postfilterflagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	SRR1314212	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/flagstat_filtered/SRR1314212_postfilterflagstat.stats
+Samtools Flagstat (post-samtools filter)	flagstat	SRR1314213	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/flagstat_filtered/SRR1314213_postfilterflagstat.stats
+Picard	DuplicationMetrics	SRR1314214	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/markdup/SRR1314214_rmdup.metrics
+Picard	DuplicationMetrics	SRR1314212	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/markdup/SRR1314212_rmdup.metrics
+Picard	DuplicationMetrics	SRR1314213	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/markdup/SRR1314213_rmdup.metrics
+Picard	DuplicationMetrics	SRR1314601	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/markdup/SRR1314601_rmdup.metrics
+Picard	DuplicationMetrics	SRR1314599	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/markdup/SRR1314599_rmdup.metrics
+Picard	DuplicationMetrics	SRR1314600	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/markdup/SRR1314600_rmdup.metrics
+Picard	DuplicationMetrics	SRR1313909	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/markdup/SRR1313909_rmdup.metrics
+Preseq	all_sections	SRR1314214	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/preseq/SRR1314214.filtered.preseq
+Preseq	all_sections	SRR1314213	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/preseq/SRR1314213.filtered.preseq
+Preseq	all_sections	SRR1314600	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/preseq/SRR1314600.filtered.preseq
+Preseq	all_sections	SRR1314599	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/preseq/SRR1314599.filtered.preseq
+Preseq	all_sections	SRR1314601	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/preseq/SRR1314601.filtered.preseq
+Preseq	all_sections	SRR1314212	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/preseq/SRR1314212.filtered.preseq
+Preseq	all_sections	SRR1313909	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/preseq/SRR1313909.filtered.preseq
+DamageProfiler	all_sections	SRR1313909	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/damageprofiler/dmgprof8/dmgprof.json
+DamageProfiler	all_sections	SRR1314214	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/damageprofiler/dmgprof48/dmgprof.json
+DamageProfiler	all_sections	SRR1314599	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/damageprofiler/dmgprof40/dmgprof.json
+DamageProfiler	all_sections	SRR1314600	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/damageprofiler/dmgprof24/dmgprof.json
+DamageProfiler	all_sections	SRR1314212	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/damageprofiler/dmgprof16/dmgprof.json
+DamageProfiler	all_sections	SRR1314213	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/damageprofiler/dmgprof32/dmgprof.json
+DamageProfiler	all_sections	SRR1314601	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/damageprofiler/dmgprof56/dmgprof.json
+QualiMap	genome_results	SRR1314600	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap48/SRR1314600_rmdup_stats/genome_results.txt
+QualiMap	genome_results	SRR1314243	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap40/SRR1314243_udgnone_libmerged_rmdup_stats/genome_results.txt
+QualiMap	genome_results	SRR1314601	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap32/SRR1314601_rmdup_stats/genome_results.txt
+QualiMap	genome_results	SRR1313909	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap24/SRR1313909_rmdup_stats/genome_results.txt
+QualiMap	genome_results	SRR1314599	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap16/SRR1314599_rmdup_stats/genome_results.txt
+QualiMap	genome_results	SRR1314212	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap8/SRR1314212_rmdup_stats/genome_results.txt
+QualiMap	coverage_histogram	SRR1314600	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap48/SRR1314600_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	SRR1314243	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap40/SRR1314243_udgnone_libmerged_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	SRR1314601	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap32/SRR1314601_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	SRR1313909	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap24/SRR1313909_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	SRR1314599	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap16/SRR1314599_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	SRR1314212	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap8/SRR1314212_rmdup_stats/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	mapped_gc_distribution	SRR1314600	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap48/SRR1314600_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	SRR1314243	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap40/SRR1314243_udgnone_libmerged_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	SRR1314601	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap32/SRR1314601_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	SRR1313909	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap24/SRR1313909_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	SRR1314599	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap16/SRR1314599_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	SRR1314212	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/qualimap/qualimap8/SRR1314212_rmdup_stats/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+Bcftools	stats	SRR1314242	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/bcftools_stats40
+Bcftools	stats	SRR1314599	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/bcftools_stats8
+Bcftools	stats	SRR1314243	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/bcftools_stats48
+Bcftools	stats	SRR1314600	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/bcftools_stats24
+Bcftools	stats	SRR1314601	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/bcftools_stats32
+Bcftools	stats	SRR1313909	/project/2024-11-29-ancient-eager/work/5e/2e276123c1086fd7d62b2dd5de7146/bcftools_stats16
