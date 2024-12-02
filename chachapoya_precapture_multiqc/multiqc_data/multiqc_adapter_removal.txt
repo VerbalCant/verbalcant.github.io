@@ -1,0 +1,2 @@
+Sample	singleton_m1	singleton_m2	discarded_m2	total	aligned	discarded_total	unaligned_total	unaligned	full-length_cp	reads_total	percent_collapsed	aligned_total	percent_discarded	discarded_m1	paired_reads	percent_aligned	retained	truncated_cp
+SRR1298755_1	3856348	45134	4242546	27328599	22569391	26035965	9518416	4759208	42207410	54657198	78.16751601499952	45138782	8.551257969718828	431332	3357664	82.58524705199854	28621233	516764

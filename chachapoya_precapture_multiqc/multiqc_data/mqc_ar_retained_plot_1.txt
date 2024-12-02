@@ -1,0 +1,2 @@
+Sample	Discarded R2	Singleton R2	Full-length Collapsed Reads	Uncollapsed Paired Reads	Discarded R1	Singleton R1	Truncated Collapsed Reads
+SRR1298755_1	4242546.0	45134.0	42207410.0	3357664.0	431332.0	3856348.0	516764.0
