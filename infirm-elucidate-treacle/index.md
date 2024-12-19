@@ -43,9 +43,9 @@ title: Nazca nf-core/eager and g1k PCA
 | ancient0003 | [SRR20755928](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR20755928) | [Download FASTA](haplogrep3_rCRS_nazca/ancient0003.fasta.gz) | M20 |
 | ancient0004 | [SRR20458000](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR20458000) | [Download FASTA](haplogrep3_rCRS_nazca/ancient0004.fasta.gz) | M20* |
 
-| Haplogroup Results | Quality Summary |
-|-------------------|-----------------|
-| ![Nazca Haplogroup Results](haplogrep3_rCRS_nazca/nazca_haplogrep_samples.png) | ![Nazca Quality Summary](haplogrep3_rCRS_nazca/nazca_haplogrep_summary.png) |
+| Haplogroup Results | Haplogroup Summary |
+|--------------------|--------------------|
+| ![Nazca Haplogroup Results](haplogrep3_rCRS_nazca/nazca_haplogrep_samples.png) | ![Nazca Haplogroup Summary](haplogrep3_rCRS_nazca/nazca_haplogrep_summary.png) |
 
 ### Chachapoya Samples Analysis
 
@@ -58,9 +58,9 @@ title: Nazca nf-core/eager and g1k PCA
 | NA47 | [SRR1314600](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1314600) | [Download FASTA](haplogrep3_rCRS_chachapoya/NA47_SRR1314600.fasta.gz) | R |
 | NA50 | [SRR1314601](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1314601) | [Download FASTA](haplogrep3_rCRS_chachapoya/NA50_SRR1314601.fasta.gz) | R |
 
-| Haplogroup Results | Quality Summary |
-|-------------------|-----------------|
-| ![Chachapoya Haplogroup Results](haplogrep3_rCRS_chachapoya/chachapoya_haplogrep_samples.png) | ![Chachapoya Quality Summary](haplogrep3_rCRS_chachapoya/chachapoya_haplogrep3_summary.png) |
+| Haplogroup Results | Haplogroup Summary |
+|--------------------|--------------------|
+| ![Chachapoya Haplogroup Results](haplogrep3_rCRS_chachapoya/chachapoya_haplogrep_samples.png) | ![Chachapoya Haplogroup Summary](haplogrep3_rCRS_chachapoya/chachapoya_haplogrep3_summary.png) |
 
 ### Detailed Results and Analysis Files
 - [View Haplogroup Analysis Report (Nazca)](haplogrep3_rCRS_nazca/nazca-haplogrep3/haplogroups.html)
