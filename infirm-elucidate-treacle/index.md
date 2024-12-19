@@ -47,5 +47,5 @@ title: Nazca nf-core/eager and g1k PCA
 
 | ancient0002 | ancient0003 | ancient0004 |
 |-------------|-------------|-------------|
-| ![ancient0002 haplogroup](haplogrep3_rCRS_nazca/ancient0002-haplogrep3.png) | ![ancient0003 haplogroup](haplogrep3_rCRS_nazca/ancient0003-haplogrep3.png) | ![ancient0004 haplogroup](haplogrep3_rCRS_nazca/ancient0004-haplogrep3.png) |
+| <a href="/infirm-elucidate-treacle/haplogrep3_rCRS_nazca/ancient0002-haplogrep3.png" target="_blank">![ancient0002 haplogroup](haplogrep3_rCRS_nazca/ancient0002-haplogrep3.png)</a> | <a href="/infirm-elucidate-treacle/haplogrep3_rCRS_nazca/ancient0003-haplogrep3.png" target="_blank">![ancient0003 haplogroup](haplogrep3_rCRS_nazca/ancient0003-haplogrep3.png)</a> | <a href="/infirm-elucidate-treacle/haplogrep3_rCRS_nazca/ancient0004-haplogrep3.png" target="_blank">![ancient0004 haplogroup](haplogrep3_rCRS_nazca/ancient0004-haplogrep3.png)</a> |
 | [Download detailed results (ZIP)](haplogrep3_rCRS_nazca/ancient0002-haplogroups.zip) | [Download detailed results (ZIP)](haplogrep3_rCRS_nazca/ancient0003-haplogroups.zip) | [Download detailed results (ZIP)](haplogrep3_rCRS_nazca/ancient0004-haplogroups.zip) |
