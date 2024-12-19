@@ -1,0 +1,3 @@
+Sample	mtnucratio	FastQC (pre-Trimming)
+FastQC (pre-Trimming)		0.11.9
+mtnucratio	0.7	

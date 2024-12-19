@@ -1,0 +1,2 @@
+Sample	Duplicate Unpaired	Unique Unpaired
+NA50precapture	21295.0	53368.0

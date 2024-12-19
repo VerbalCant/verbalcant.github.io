@@ -1,0 +1,2 @@
+Sample	std	median	mean_readlength
+NA50precapture	41.444811786029824	89.0	90.91829821152518

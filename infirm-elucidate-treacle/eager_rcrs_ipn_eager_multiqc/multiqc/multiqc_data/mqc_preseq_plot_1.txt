@@ -1,0 +1,11 @@
+	0.0
+momia1	0.0
+	0.0
+momia3	0.0
+	0.0
+momia5	0.0
+	0.0
+momia6	0.0
+	0	0.0
+a perfect library where each read is unique	0	0.0
+

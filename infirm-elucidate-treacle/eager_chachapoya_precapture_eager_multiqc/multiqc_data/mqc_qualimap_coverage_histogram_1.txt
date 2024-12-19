@@ -1,0 +1,2 @@
+Sample	0
+NA50precapture	3100369412.0

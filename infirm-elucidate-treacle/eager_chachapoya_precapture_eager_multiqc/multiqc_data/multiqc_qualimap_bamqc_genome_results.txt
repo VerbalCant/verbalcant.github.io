@@ -1,0 +1,2 @@
+Sample	mapped_reads	mean_mapping_quality	median_insert_size	general_error_rate	bam_file	sequenced_bases	mapped_bases	total_reads	mean_coverage	mean_insert_size
+NA50precapture	53368.0	10.4191	0.0	0.0264	NA50precapture_rmdup.bam	3440178.0	3452718.0	53368.0	0.0011	0.0
