@@ -11,35 +11,21 @@ title: Nazca nf-core/eager and g1k PCA
 ## Nazca Analysis
 
 ### nf-core/eager Reports
-- [HG38 IPN MultiQC Report](eager_hg38_ipn_eager_multiqc/multiqc_report.html#damageprofiler)
-- [HG38 A234 MultiQC Report](eager_hg38_a234_eager_multiqc/multiqc_report.html#damageprofiler)
+- [hg38 momia1, momia3, momia5, momia6 MultiQC Report](eager_hg38_ipn_eager_multiqc/multiqc_report.html#damageprofiler)
+- [hg38 ancient0002, ancient0003, ancient0004 MultiQC Report](eager_hg38_a234_eager_multiqc/multiqc_report.html#damageprofiler)
 
 ### Consensus Sequences - mtDNA, rCRS
 
 #### ancient0002, ancient0003, ancient0004 Samples
 - [ancient0002.fasta.gz](eager_rcrs_a234_eager_multiqc/consensus_sequence/ancient0002.fasta.gz)
-  - [Reference Modified](eager_rcrs_a234_eager_multiqc/consensus_sequence/ancient0002.fasta_refmod.fasta.gz)
-  - [Uncertainty](eager_rcrs_a234_eager_multiqc/consensus_sequence/ancient0002.fasta_uncertainty.fasta.gz)
 - [ancient0003.fasta.gz](eager_rcrs_a234_eager_multiqc/consensus_sequence/ancient0003.fasta.gz)
-  - [Reference Modified](eager_rcrs_a234_eager_multiqc/consensus_sequence/ancient0003.fasta_refmod.fasta.gz)
-  - [Uncertainty](eager_rcrs_a234_eager_multiqc/consensus_sequence/ancient0003.fasta_uncertainty.fasta.gz)
 - [ancient0004.fasta.gz](eager_rcrs_a234_eager_multiqc/consensus_sequence/ancient0004.fasta.gz)
-  - [Reference Modified](eager_rcrs_a234_eager_multiqc/consensus_sequence/ancient0004.fasta_refmod.fasta.gz)
-  - [Uncertainty](eager_rcrs_a234_eager_multiqc/consensus_sequence/ancient0004.fasta_uncertainty.fasta.gz)
 
 #### momia1, momia3, momia5, momia6 Samples
 - [m0mia6.fasta.gz](eager_rcrs_ipn_eager_multiqc/consensus_sequence/m0mia6.fasta.gz)
-  - [Reference Modified](eager_rcrs_ipn_eager_multiqc/consensus_sequence/m0mia6.fasta_refmod.fasta.gz)
-  - [Uncertainty](eager_rcrs_ipn_eager_multiqc/consensus_sequence/m0mia6.fasta_uncertainty.fasta.gz)
 - [momia1.fasta.gz](eager_rcrs_ipn_eager_multiqc/consensus_sequence/momia1.fasta.gz)
-  - [Reference Modified](eager_rcrs_ipn_eager_multiqc/consensus_sequence/momia1.fasta_refmod.fasta.gz)
-  - [Uncertainty](eager_rcrs_ipn_eager_multiqc/consensus_sequence/momia1.fasta_uncertainty.fasta.gz)
 - [momia3.fasta.gz](eager_rcrs_ipn_eager_multiqc/consensus_sequence/momia3.fasta.gz)
-  - [Reference Modified](eager_rcrs_ipn_eager_multiqc/consensus_sequence/momia3.fasta_refmod.fasta.gz)
-  - [Uncertainty](eager_rcrs_ipn_eager_multiqc/consensus_sequence/momia3.fasta_uncertainty.fasta.gz)
 - [momia5.fasta.gz](eager_rcrs_ipn_eager_multiqc/consensus_sequence/momia5.fasta.gz)
-  - [Reference Modified](eager_rcrs_ipn_eager_multiqc/consensus_sequence/momia5.fasta_refmod.fasta.gz)
-  - [Uncertainty](eager_rcrs_ipn_eager_multiqc/consensus_sequence/momia5.fasta_uncertainty.fasta.gz)
 
 ## Chachapoya Analysis
 
