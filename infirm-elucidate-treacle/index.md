@@ -51,16 +51,16 @@ title: Nazca nf-core/eager and g1k PCA
 
 | Sample | SRA Accession | Consensus Sequence | Haplogroup |
 |--------|---------------|-------------------|------------|
-| NA50-1 | [SRR1313909](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1313909) | [Download FASTA](haplogrep3_rCRS_chachapoya/SRR1313909.fasta.gz) | B2 |
-| NA50-2 | [SRR1314242](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1314242) | [Download FASTA](haplogrep3_rCRS_chachapoya/SRR1314242.fasta.gz) | R |
-| NA50-3 | [SRR1314243](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1314243) | [Download FASTA](haplogrep3_rCRS_chachapoya/SRR1314243.fasta.gz) | L3 |
-| NA50-4 | [SRR1314599](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1314599) | [Download FASTA](haplogrep3_rCRS_chachapoya/SRR1314599.fasta.gz) | R |
-| NA50-5 | [SRR1314600](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1314600) | [Download FASTA](haplogrep3_rCRS_chachapoya/SRR1314600.fasta.gz) | R |
-| NA50-6 | [SRR1314601](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1314601) | [Download FASTA](haplogrep3_rCRS_chachapoya/SRR1314601.fasta.gz) | R |
+| NA39 | [SRR1313909](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1313909) | [Download FASTA](haplogrep3_rCRS_chachapoya/NA39_SRR1313909.fasta.gz) | B2 |
+| NA40 | [SRR1314212](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1314212) | [Download FASTA](haplogrep3_rCRS_chachapoya/NA40_SRR1314212.fasta.gz) | R |
+| NA41 | [SRR1314213](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1314213) | [Download FASTA](haplogrep3_rCRS_chachapoya/NA41_SRR1314213.fasta.gz) | L3 |
+| NA43 | [SRR1314599](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1314599) | [Download FASTA](haplogrep3_rCRS_chachapoya/NA43_SRR1314599.fasta.gz) | R |
+| NA47 | [SRR1314600](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1314600) | [Download FASTA](haplogrep3_rCRS_chachapoya/NA47_SRR1314600.fasta.gz) | R |
+| NA50 | [SRR1314601](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1314601) | [Download FASTA](haplogrep3_rCRS_chachapoya/NA50_SRR1314601.fasta.gz) | R |
 
 | Haplogroup Results | Quality Summary |
 |-------------------|-----------------|
-| ![Chachapoya Haplogroup Results](haplogrep3_rCRS_chachapoya/chachapoya_haplogrep_samples.png) | ![Chachapoya Quality Summary](haplogrep3_rCRS_chachapoya/chachapoya_haplogrep_summary.png) |
+| ![Chachapoya Haplogroup Results](haplogrep3_rCRS_chachapoya/chachapoya_haplogrep_samples.png) | ![Chachapoya Quality Summary](haplogrep3_rCRS_chachapoya/chachapoya_haplogrep3_summary.png) |
 
 ### Complete Analysis Downloads
 - [Download Complete Haplogroup Analysis (Nazca)](haplogrep3_rCRS_nazca/nazca-haplogrep3.zip)
