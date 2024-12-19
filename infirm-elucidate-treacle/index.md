@@ -11,8 +11,8 @@ title: Nazca nf-core/eager and g1k PCA
 ## Nazca Analysis
 
 ### nf-core/eager Reports
-- [hg38 momia1, momia3, momia5, momia6 MultiQC Report](eager_hg38_ipn_eager_multiqc/multiqc_report.html#damageprofiler)
-- [hg38 ancient0002, ancient0003, ancient0004 MultiQC Report](eager_hg38_a234_eager_multiqc/multiqc_report.html#damageprofiler)
+- [hg38 momia1, momia3, momia5, momia6 nf-core/eager MultiQC Report](eager_hg38_ipn_eager_multiqc/multiqc_report.html#damageprofiler)
+- [hg38 ancient0002, ancient0003, ancient0004 nf-core/eager MultiQC Report](eager_hg38_a234_eager_multiqc/multiqc_report.html#damageprofiler)
 
 ### Consensus Sequences - mtDNA, rCRS
 
@@ -39,5 +39,5 @@ title: Nazca nf-core/eager and g1k PCA
 - [Postcapture NA50](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1314601&display=metadata)
 
 ### nf-core/eager Reports
-- [Precapture MultiQC Report](eager_chachapoya_precapture_eager_multiqc/multiqc_report.html#damageprofiler) - Damage patterns for precapture data
-- [Postcapture MultiQC Report](eager_chachapoya_postcapture_eager_multiqc/multiqc_report.html#damageprofiler) - Damage patterns for postcapture data
+- [Precapture NA50 nf-core/eager MultiQC Report](eager_chachapoya_precapture_eager_multiqc/multiqc_report.html#damageprofiler) - Damage patterns for precapture data
+- [Postcapture NA39-50 nf-core/eager MultiQC Report](eager_chachapoya_postcapture_eager_multiqc/multiqc_report.html#damageprofiler) - Damage patterns for postcapture data
