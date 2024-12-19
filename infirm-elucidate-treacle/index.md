@@ -62,6 +62,8 @@ title: Nazca nf-core/eager and g1k PCA
 |-------------------|-----------------|
 | ![Chachapoya Haplogroup Results](haplogrep3_rCRS_chachapoya/chachapoya_haplogrep_samples.png) | ![Chachapoya Quality Summary](haplogrep3_rCRS_chachapoya/chachapoya_haplogrep3_summary.png) |
 
-### Complete Analysis Downloads
-- [Download Complete Haplogroup Analysis (Nazca)](haplogrep3_rCRS_nazca/nazca-haplogrep3.zip)
-- [Download Complete Haplogroup Analysis (Chachapoya)](haplogrep3_rCRS_chachapoya/chachapoya-haplogrep3.zip)
+### Detailed Results and Analysis Files
+- [View Haplogroup Analysis Report (Nazca)](haplogrep3_rCRS_nazca/nazca-haplogrep3/haplogroups.html)
+- [Download Complete Analysis Files (Nazca)](haplogrep3_rCRS_nazca/nazca-haplogrep3.zip)
+- [View Haplogroup Analysis Report (Chachapoya)](haplogrep3_rCRS_chachapoya/chachapoya-haplogrep3/haplogroups.html)
+- [Download Complete Analysis Files (Chachapoya)](haplogrep3_rCRS_chachapoya/chachapoya-haplogrep3.zip)
