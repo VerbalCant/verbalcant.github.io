@@ -32,8 +32,8 @@ title: Nazca nf-core/eager and g1k PCA
 ## Mitochondrial DNA Analysis (rCRS)
 
 ### nf-core/eager Reports
-- [hg38 momia1, momia3, momia5, momia6 nf-core/eager MultiQC Report](eager_hg38_ipn_eager_multiqc/multiqc_report.html#damageprofiler)
-- [hg38 ancient0002, ancient0003, ancient0004 nf-core/eager MultiQC Report](eager_hg38_a234_eager_multiqc/multiqc_report.html#damageprofiler)
+- [rCRS momia1, momia3, momia5, momia6 nf-core/eager MultiQC Report](eager_rcrs_ipn_eager_multiqc/multiqc_report.html#damageprofiler)
+- [rCRS ancient0002, ancient0003, ancient0004 nf-core/eager MultiQC Report](eager_rcrs_a234_eager_multiqc/multiqc_report.html#damageprofiler)
 
 ### Nazca Samples Analysis
 
@@ -46,6 +46,16 @@ title: Nazca nf-core/eager and g1k PCA
 | Haplogroup Results | Haplogroup Summary |
 |--------------------|--------------------|
 | ![Nazca Haplogroup Results](haplogrep3_rCRS_nazca/nazca_haplogrep_samples.png) | ![Nazca Haplogroup Summary](haplogrep3_rCRS_nazca/nazca_haplogrep_summary.png) |
+
+### Nazca Sample Overview
+(hg38)
+| Sample      | Individual | Total Reads | Mapped Reads (%) | mtDNA Haplogroup | Mean Genome Coverage | Dating |
+|-------------|------------|-------------|------------------|------------------|-----------------|---------|
+| ancient0002 | Victoria   | 561,665,320 | 76.9M (13.4%)    | H27 | 0.9X | ~790 +/- 30 YBP (UNAM), ~1040 YBP (LAC-UFF)|
+| ancient0003 | Maria      | 647,789,366 | 741.2M (95.4%)   | M20 | 15.1X | ~1750 +/-30 YBP (Beta Analytics)|
+| ancient0004 | Victoria   | 501,700,245 | 66.5M (13.0%)    | M20* | 0.6X | ~790 +/- 30 YBP (UNAM), ~1040 YBP (LAC-UFF)|
+
+All samples date to the pre-European contact period. Maria (ancient0003) shows excellent genome coverage at 15.1X with very high endogenous DNA content (95.4%). The Victoria samples (ancient0002, ancient0004) show lower coverage and endogenous DNA content (~13%), but still yielded sequences.
 
 ### Chachapoya Samples Analysis
 
@@ -63,7 +73,7 @@ title: Nazca nf-core/eager and g1k PCA
 | ![Chachapoya Haplogroup Results](haplogrep3_rCRS_chachapoya/chachapoya_haplogrep_samples.png) | ![Chachapoya Haplogroup Summary](haplogrep3_rCRS_chachapoya/chachapoya_haplogrep3_summary.png) |
 
 ### Detailed Results and Analysis Files
-- [View Haplogroup Analysis Report (Nazca)](haplogrep3_rCRS_nazca/nazca-haplogrep3/haplogroups.html)
-- [Download Complete Analysis Files (Nazca)](haplogrep3_rCRS_nazca/nazca-haplogrep3.zip)
-- [View Haplogroup Analysis Report (Chachapoya)](haplogrep3_rCRS_chachapoya/chachapoya-haplogrep3/haplogroups.html)
-- [Download Complete Analysis Files (Chachapoya)](haplogrep3_rCRS_chachapoya/chachapoya-haplogrep3.zip)
+- [View Haplogrep3 Haplogroup Analysis Report (Nazca)](haplogrep3_rCRS_nazca/nazca-haplogrep3/haplogroups.html)
+- [Download Complete Haplogrep3 Analysis Files (Nazca)](haplogrep3_rCRS_nazca/nazca-haplogrep3.zip)
+- [View Haplogrep3 Haplogroup Analysis Report (Chachapoya)](haplogrep3_rCRS_chachapoya/chachapoya-haplogrep3/haplogroups.html)
+- [Download Complete Haplogrep3 Analysis Files (Chachapoya)](haplogrep3_rCRS_chachapoya/chachapoya-haplogrep3.zip)
