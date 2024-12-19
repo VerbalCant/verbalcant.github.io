@@ -8,6 +8,17 @@ title: Nazca nf-core/eager and g1k PCA
 ## PCA Visualization
 - [Interactive PCA Visualization](pca_visualization.html) - 3D visualization of PCA results for both Chachapoya and Nazca samples
 
+### Static PCA Plots
+#### Nazca PCA
+- [PC1 vs PC2 Plot (PDF)](pca_nazca/nazca_pca_plot_PC1_PC2.pdf)
+- [PC2 vs PC3 Plot (PDF)](pca_nazca/nazca_pca_plot_PC2_PC3.pdf)
+- [PC1 vs PC3 Plot (PDF)](pca_nazca/nazca_pca_plot_PC1_PC3.pdf)
+
+#### Chachapoya PCA
+- [PC1 vs PC2 Plot (PDF)](pca_chachapoya/chachapoya_pca_plot_PC1_PC2.pdf)
+- [PC2 vs PC3 Plot (PDF)](pca_chachapoya/chachapoya_pca_plot_PC2_PC3.pdf)
+- [PC1 vs PC3 Plot (PDF)](pca_chachapoya/chachapoya_pca_plot_PC1_PC3.pdf)
+
 ## Nazca Analysis
 
 ### nf-core/eager Reports
