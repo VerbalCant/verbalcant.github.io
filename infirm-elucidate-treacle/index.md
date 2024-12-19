@@ -48,14 +48,14 @@ title: Nazca nf-core/eager and g1k PCA
 | ![Nazca Haplogroup Results](haplogrep3_rCRS_nazca/nazca_haplogrep_samples.png) | ![Nazca Haplogroup Summary](haplogrep3_rCRS_nazca/nazca_haplogrep_summary.png) |
 
 ### Nazca Sample Overview
-(hg38)
+#### Nuclear Genome Statistics (hg38 Reference)
 | Sample      | Individual | Total Reads | Mapped Reads (%) | Mean Coverage | C14 Dating                                 |
 |-------------|------------|-------------|------------------|---------------|--------------------------------------------|
 | ancient0002 | Victoria   | 561,665,320 | 76.9M (13.4%)    | 0.9X          | ~790 +/- 30 YBP (UNAM), ~1040 YBP (LAC-UFF)|
 | ancient0003 | Maria      | 647,789,366 | 741.2M (95.4%)   | 15.1X         | ~1750 +/-30 YBP (Beta Analytics)|
 | ancient0004 | Victoria   | 501,700,245 | 66.5M (13.0%)    | 0.6X          | ~790 +/- 30 YBP (UNAM), ~1040 YBP (LAC-UFF)|
 
-(rCRS)
+#### Mitochondrial Genome Statistics (rCRS Reference) 
 | Sample      | Individual | Total Reads | Mapped Reads | mtDNA Haplogroup |
 |-------------|------------|-------------|--------------|------------------|
 | ancient0002 | Victoria   | 561,665,320 | 7,408        | H27              |
