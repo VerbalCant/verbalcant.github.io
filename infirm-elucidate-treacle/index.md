@@ -49,11 +49,18 @@ title: Nazca nf-core/eager and g1k PCA
 
 ### Nazca Sample Overview
 (hg38)
-| Sample      | Individual | Total Reads | Mapped Reads (%) | mtDNA Haplogroup | Mean Genome Coverage | Dating |
-|-------------|------------|-------------|------------------|------------------|-----------------|---------|
-| ancient0002 | Victoria   | 561,665,320 | 76.9M (13.4%)    | H27 | 0.9X | ~790 +/- 30 YBP (UNAM), ~1040 YBP (LAC-UFF)|
-| ancient0003 | Maria      | 647,789,366 | 741.2M (95.4%)   | M20 | 15.1X | ~1750 +/-30 YBP (Beta Analytics)|
-| ancient0004 | Victoria   | 501,700,245 | 66.5M (13.0%)    | M20* | 0.6X | ~790 +/- 30 YBP (UNAM), ~1040 YBP (LAC-UFF)|
+| Sample      | Individual | Total Reads | Mapped Reads (%) | Mean Coverage | C14 Dating                                 |
+|-------------|------------|-------------|------------------|---------------|--------------------------------------------|
+| ancient0002 | Victoria   | 561,665,320 | 76.9M (13.4%)    | 0.9X          | ~790 +/- 30 YBP (UNAM), ~1040 YBP (LAC-UFF)|
+| ancient0003 | Maria      | 647,789,366 | 741.2M (95.4%)   | 15.1X         | ~1750 +/-30 YBP (Beta Analytics)|
+| ancient0004 | Victoria   | 501,700,245 | 66.5M (13.0%)    | 0.6X          | ~790 +/- 30 YBP (UNAM), ~1040 YBP (LAC-UFF)|
+
+(rCRS)
+| Sample      | Individual | Total Reads | Mapped Reads | mtDNA Haplogroup |
+|-------------|------------|-------------|--------------|------------------|
+| ancient0002 | Victoria   | 561,665,320 | 7,408        | H27              |
+| ancient0003 | Maria      | 647,789,366 | 64,090       | M20              |
+| ancient0004 | Victoria   | 501,700,245 | 17,111       | M20*             |
 
 All samples date to the pre-European contact period. Maria (ancient0003) shows excellent genome coverage at 15.1X with very high endogenous DNA content (95.4%). The Victoria samples (ancient0002, ancient0004) show lower coverage and endogenous DNA content (~13%), but still yielded sequences.
 
