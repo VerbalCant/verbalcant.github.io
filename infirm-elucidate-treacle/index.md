@@ -1,3 +1,8 @@
+---
+layout: default
+title: Nazca nf-core/eager and g1k PCA
+---
+
 # Ancient DNA Analysis
 
 ## PCA Visualization
