@@ -1,0 +1,9 @@
+Total of mapped reads: VCF
+Total of unmapped reads: VCF
+Valid markers: 359
+Markers with zero reads: 0
+Markers below the read threshold {10}: 217
+Markers below the base majority threshold {90.0}: 6
+Markers with discordant genotype: 8
+Markers without haplogroup information: 231
+Markers with haplogroup information: 128

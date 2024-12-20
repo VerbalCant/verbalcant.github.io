@@ -75,6 +75,18 @@ title: Nazca nf-core/eager and g1k PCA
 
 All samples date to the pre-European contact period. Maria (ancient0003) shows excellent genome coverage at 15.1X with very high endogenous DNA content (95.4%). The Victoria samples (ancient0002, ancient0004) show lower coverage and endogenous DNA content (~13%), but still yielded sequences.
 
+#### Y-Chromosome Haplogroup Analysis (hg38 Reference)
+| Sample      | Individual | Y-Haplogroup | QC Score | Valid Markers | Details |
+|-------------|------------|--------------|-----------|---------------|----------|
+| ancient0002 | Victoria   | No call      | -        | -             | Insufficient Y-chr coverage |
+| ancient0003 | Maria      | [Q-Z770](https://www.yfull.com/tree/Q-Z770/) | 1.0 | 128 | [View Analysis](ancient0003_yleaf_output/hg_prediction.hg) |
+| ancient0004 | Victoria   | No call      | -        | -             | Insufficient Y-chr coverage |
+
+Maria's Y-chromosome was assigned to haplogroup Q-Z770 with high confidence (QC score: 1.0) based on 128 valid markers. Detailed analysis files:
+- [Haplogroup Prediction](ancient0003_yleaf_output/hg_prediction.hg)
+- [Filtered Marker Analysis](ancient0003_yleaf_output/ancient0003.chrY.filtered/ancient0003.chrY.filtered.out)
+- [Analysis Log](ancient0003_yleaf_output/run.log)
+
 ### Chachapoya Samples Analysis
 
 | Sample | SRA Accession | Consensus Sequence | Haplogroup |

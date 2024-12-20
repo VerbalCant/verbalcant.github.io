@@ -1,0 +1,25 @@
+DEBUG 10:57:20.990230 (0.000 s) - Logger created
+INFO 10:57:20.990301 (0.000 s) - Running Yleaf with command: /home/a/anaconda3/envs/yleaf/bin/Yleaf -vcf ancient0003.chrY.vcf.gz --reference_genome hg38 -o ancient0003_yleaf_output -t 16
+DEBUG 10:57:21.007497 (0.017 s) - Started running the following command: bcftools sort -O z -o ancient0003_yleaf_output/ancient0003.chrY.sorted.vcf.gz ancient0003.chrY.vcf.gz
+DEBUG 10:57:21.110617 (0.121 s) - Finished running the command bcftools sort -O z -o ancient0003_yleaf_output/ancient0003.chrY.sorted.vcf.gz ancient0003.chrY.vcf.gz
+DEBUG 10:57:21.110975 (0.121 s) - Started running the following command: bcftools index -f ancient0003_yleaf_output/ancient0003.chrY.sorted.vcf.gz
+DEBUG 10:57:21.135830 (0.146 s) - Finished running the command bcftools index -f ancient0003_yleaf_output/ancient0003.chrY.sorted.vcf.gz
+DEBUG 10:57:21.189440 (0.199 s) - Started running the following command: bcftools view -O z -R ancient0003_yleaf_output/ancient0003.chrYtemp_position_bed.bed ancient0003_yleaf_output/ancient0003.chrY.sorted.vcf.gz > ancient0003_yleaf_output/filtered_vcf_files/ancient0003.chrY.filtered.vcf.gz
+DEBUG 10:57:25.884873 (4.895 s) - Finished running the command bcftools view -O z -R ancient0003_yleaf_output/ancient0003.chrYtemp_position_bed.bed ancient0003_yleaf_output/ancient0003.chrY.sorted.vcf.gz > ancient0003_yleaf_output/filtered_vcf_files/ancient0003.chrY.filtered.vcf.gz
+DEBUG 10:57:25.885166 (4.895 s) - Started running the following command: rm ancient0003_yleaf_output/ancient0003.chrYtemp_position_bed.bed
+DEBUG 10:57:25.893468 (4.903 s) - Finished running the command rm ancient0003_yleaf_output/ancient0003.chrYtemp_position_bed.bed
+DEBUG 10:57:25.893610 (4.904 s) - Started running the following command: rm ancient0003_yleaf_output/ancient0003.chrY.sorted.vcf.gz
+DEBUG 10:57:25.898720 (4.909 s) - Finished running the command rm ancient0003_yleaf_output/ancient0003.chrY.sorted.vcf.gz
+DEBUG 10:57:25.898847 (4.909 s) - Started running the following command: rm ancient0003_yleaf_output/ancient0003.chrY.sorted.vcf.gz.csi
+DEBUG 10:57:25.903524 (4.913 s) - Finished running the command rm ancient0003_yleaf_output/ancient0003.chrY.sorted.vcf.gz.csi
+DEBUG 10:57:25.952748 (4.963 s) - Starting with extracting haplogroups...
+DEBUG 10:57:26.054938 (5.065 s) - Started running the following command: bcftools query -f '%CHROM	%POS	%REF	%ALT[	%AD]
+' ancient0003_yleaf_output/filtered_vcf_files/ancient0003.chrY.filtered.vcf.gz > ancient0003_yleaf_output/ancient0003.chrY.filtered/ancient0003.chrY.filtered.txt
+DEBUG 10:57:26.061656 (5.072 s) - Finished running the command bcftools query -f '%CHROM	%POS	%REF	%ALT[	%AD]
+' ancient0003_yleaf_output/filtered_vcf_files/ancient0003.chrY.filtered.vcf.gz > ancient0003_yleaf_output/ancient0003.chrY.filtered/ancient0003.chrY.filtered.txt
+DEBUG 10:57:26.063611 (5.074 s) - Started running the following command: rm ancient0003_yleaf_output/ancient0003.chrY.filtered/ancient0003.chrY.filtered.txt
+DEBUG 10:57:26.067672 (5.078 s) - Finished running the command rm ancient0003_yleaf_output/ancient0003.chrY.filtered/ancient0003.chrY.filtered.txt
+INFO 10:57:26.180761 (5.191 s) - Finished extracting genotypes for ancient0003.chrY.filtered.vcf.gz
+INFO 10:57:26.262312 (5.272 s) - Starting haplogroup prediction...
+DEBUG 10:57:26.391931 (5.402 s) - Finished haplogroup prediction
+INFO 10:57:26.392315 (5.402 s) - Done!
