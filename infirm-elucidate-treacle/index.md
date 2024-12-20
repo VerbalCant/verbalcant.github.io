@@ -11,12 +11,12 @@ title: Nazca nf-core/eager and g1k PCA
 ### Static PCA Plots
 #### Nazca PCA
 - [PC1 vs PC2 Plot (PDF)](pca_nazca/nazca_pca_plot_PC1_PC2.pdf)
-- [PC2 vs PC3 Plot (PDF)](pca_nazca/nazca_pca_plot_PC2_PC3.pdf)
+- [PC2 vs PC3 Plot (PNG)](pca_nazca/nazca_pca_plot_PC2_PC3.png)
 - [PC1 vs PC3 Plot (PDF)](pca_nazca/nazca_pca_plot_PC1_PC3.pdf)
 
 #### Chachapoya PCA
 - [PC1 vs PC2 Plot (PDF)](pca_chachapoya/chachapoya_pca_plot_PC1_PC2.pdf)
-- [PC2 vs PC3 Plot (PDF)](pca_chachapoya/chachapoya_pca_plot_PC2_PC3.pdf)
+- [PC2 vs PC3 Plot (PNG)](pca_chachapoya/chachapoya_pca_plot_PC2_PC3.png)
 - [PC1 vs PC3 Plot (PDF)](pca_chachapoya/chachapoya_pca_plot_PC1_PC3.pdf)
 
 ## Nazca Analysis
