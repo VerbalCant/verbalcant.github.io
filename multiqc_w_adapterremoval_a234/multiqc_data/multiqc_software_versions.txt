@@ -1,0 +1,5 @@
+Sample	Adapter Removal	FastQC (post-Trimming)	FastQC (pre-Trimming)	mtnucratio
+Adapter Removal	2.3.2			
+FastQC (post-Trimming)		0.11.9		
+FastQC (pre-Trimming)			0.11.9	
+mtnucratio				0.7
